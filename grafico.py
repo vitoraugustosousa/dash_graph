@@ -9,7 +9,7 @@ ext_style = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets = ext_style)
 
-df = pd.read_csv('/Users/vitorsousa/Desktop/Project/Datasets/locations_capado.csv')
+df = pd.read_csv('locations_capado.csv')
 
 available_months = df.Crash_Month.unique()
 
@@ -76,10 +76,11 @@ def update_graph(yaxis_option, months, year_value):
     yvalues = dff2.groupby('Crash_Day_Of_Week')[yaxis_option].sum()
     dfYvalues = pd.DataFrame(yvalues)
     dfYvalues.reset_index(inplace = True)
-    dfYvalues['Crash_Day_Of_Week'] = dfYvalues['Crash_Day_Of_Week'].astype('category', 
-                                                                           categories=days, ordered=True)
+    dfYvalues['Crash_Day_Of_Week'] = dfYvalues['Crash_Day_Of_Week'].astype(pd.api.types.CategoricalDtype(categories=days, ordered=True))
     dfYvalues.sort_values('Crash_Day_Of_Week', inplace = True)
-        
+    
+    pd.api.types.CategoricalDtype(categories=days, ordered=True)
+
     return {
         'data' : [go.Bar(
             x = dfYvalues['Crash_Day_Of_Week'],
