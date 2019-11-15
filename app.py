@@ -9,6 +9,8 @@ ext_style = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets = ext_style)
 
+server = app.server
+
 df = pd.read_csv('locations_capado.csv')
 
 available_months = df.Crash_Month.unique()
