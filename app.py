@@ -20,8 +20,8 @@ crash_type = df.iloc[:, -12:].columns.tolist()
 days_of_week = df.Crash_Day_Of_Week.unique()
 
 app.layout = html.Div(children = [
-    html.H1(children = 'Grafico de cuh eh rola'),
-    html.Div(children = 'DSaulo Cabecao'),
+    html.H1(children = 'Primeiro DashBoard'),
+    html.Div(children = 'Teste'),
     
     
     html.Div([
