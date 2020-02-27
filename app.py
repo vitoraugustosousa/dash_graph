@@ -100,15 +100,27 @@ app.layout = html.Div(
         html.Div(
             [
                 html.H1(
-                    children = 'Brisbane Incidents Analysis',
+                    children = 'Brisbane crash incident analysis',
                 ),
                 html.H5(
-                    children = 'Description of Brisbane Traffic Incidents',
+                    children = 'A description and analysis of Brisbane crash incidents using Python, Plotly, Dash, Html and CSS.',
                 ),
                 html.Div([
-                    html.H6('Vitor Augusto'),
-                    html.P('Feb 27, 2020'),
-                    dcc.Link('Linkedin', href='https://xvideos.com'),
+                    html.Div([
+                        html.Span('by Vitor Sousa'),
+                        html.A([
+                            html.Img(
+                                src='https://www.spiner.com.br/wp-content/uploads/2019/02/midias-sociais-linkedin-icon.png',
+                                style={
+                                    'height' : '24px',
+                                    'width' : '24px',
+                                }
+                            )
+                            ], href='https://www.linkedin.com/in/vitor-sousa-a114a07b', target="_blank")
+                        ]),
+                    
+                    html.P('Feb 20, 2020', style = {'font-size' : '12px'}),
+
                 ], className = 'contact')
             ],
             id = 'header',
@@ -117,281 +129,308 @@ app.layout = html.Div(
 
         html.Div(
             [
-                html.H3('Overview'),
-                html.P('Information on location and characteristics of crashes in Queensland for all reported Road Traffic Crashes occurred from 1 January 2001 to 31 December 2018, Fatal Road Traffic Crashes to 31 December 2018, Hospitalisation, Medical Treatment and Minor Injury Crashes to 31 December 2018 and Property Damage only crashes to 31 December 2010.'),
-                html.P('All the information used in this dashboard, including the datasets was extracted from Queensland Goverment Open Data Portal > Crash Data from Queensland roads.'),
-                dcc.Link('More info here bitches!', href='https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads'),
+                html.H4('Overview'),
+                html.P('This dashboard presents information on location and characteristics of crashes ocurrend in Brisbane for all reported Road Traffic Crashes occurred from 1 January 2001 to 31 December 2018, Fatal Road Traffic Crashes to 31 December 2018, Hospitalisation, Medical Treatment and Minor Injury Crashes to 31 December 2018 and Property Damage only crashes to 31 December 2010. The main purpose is to identify and analyse the main factors and trends related to these incidents.'),
+                html.P('All the information used (including the datasets) were retrieved from Queensland Goverment Open Data Portal > Crash Data from Queensland roads.'),
+                html.Div([html.Span('Source: ', style = {'font-style' : 'italic', 'font-size' : '12px'}), html.A('https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads', href = 'https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads', target="_blank", className = 'links')]),
+                html.Div([
+                    html.A('Road crash locations Dataset', href='https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads/resource/e88943c0-5968-4972-a15f-38e120d72ec0', target="_blank", className = 'links'),
+                    html.A('Road Casualties Dataset', href='https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads/resource/3fc53539-d529-4c1d-85f8-6c92d9e06fc8', target="_blank", className = 'links'),
+                    html.A('Driver Demographics Dataset', href='https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads/resource/dd13a889-2a48-4b91-8c64-59f824ed3d2c', target="_blank", className = 'links'),
+                    html.A('Vehicles types Dataset', href='https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads/resource/f999155b-37f7-48aa-b5dd-644838130b0b', target="_blank", className = 'links'),
+                    html.A('Factors in road crashes Dataset', href='https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads/resource/18ee2911-992f-40ed-b6ae-e756859786e6', target="_blank", className = 'links'),
+                ])
             ]
         ),
-
-        html.Div(
-            [
-                
-                html.Div(
-                    [
-                        html.Div(
-                            [
-                                html.Div(
-                                    [
-                                        html.Div(
-                                            'Filter by indicent Year:',
-                                        ),
-                                        html.Div(
-                                            id = 'range_year_label',
-                                            className = 'year_label',
-                                        ),
-                                        dcc.RangeSlider(
-                                            id = 'range_year',
-                                            min = df_locations['Crash_Year'].min(),
-                                            max = df_locations['Crash_Year'].max(),
-                                            step = 1,
-                                            marks = {str(year): str(year) for year in [
-                                                df_locations['Crash_Year'].min(),
-                                                df_locations['Crash_Year'].max(),
-                                            ]},
-                                            value = [2001, 2001],
-                                            className = 'dcc_control',
-                                        ),
-
-                                    ],
-                                    className = 'pretty_container four columns',
-                                    id = 'filter_options',
-                                ),
-
-                                html.Div(
-                                    [html.H6(id = 'num_acidents'), html.P('No. of Accidents Recorded')],
-                                    id = 'nacidents',
-                                    className = 'mini_container',
-                                ),
-                                html.Div(
-                                    [html.H6(id = 'num_fatal'), html.P('No. of Fatalities Recorded')],
-                                    id = 'nfatal',
-                                    className = 'mini_container',
-                                ),
-                                html.Div(
-                                    [html.H6(id = 'top_region'), html.P('Region with most incidents occurrencies:')],
-                                    id = 'region',
-                                    className = 'mini_container',
-                                ),
-                            ],
-                            id = 'info-container',
-                            className = 'row container-display',
-                        ),
-                        html.Div(
-                            [dcc.Graph(id = 'area_chart')],
-                            id = 'countGraphcontainer',
-                            className = 'pretty_container',
-                        ),
-                    ],
-                    id = 'right-column',
-                    className = 'twelve columns',
-                ),
-            ],
-            className = 'row flex-display',
-        ),
-        html.Div(
-            [
-                html.Div(
-                    [
-                        html.P('Choose the severity', className = 'control_label'),
-                        dcc.RadioItems(
-                            id = 'severity_selector',
-                            options = [
-                                {'label' : 'All', 'value' : 'all'},
-                                {'label' : 'Fatal', 'value' : 'Fatal'},
-                                {'label' : 'Hospitalisation', 'value' : 'Hospitalisation'},
-                                {'label' : 'Medical Treatment', 'value' : 'Medical treatment'},
-                                {'label' : 'Minor Injury', 'value' : 'Minor injury'},
-                            ],
-                            value = 'all',
-                            labelStyle = {'display' : 'inline-block', 'padding' : '10px', 'font-style': 'italic', 'font-size' : '12px'},
-                            className = 'dcc_control',
-                        ),
-                        dcc.Graph(id = 'nature_bars'),
-                        dcc.Graph(id = 'donut_subplots')
-                    ],
-                    className = 'pretty_container eight columns',
-                ),
-                html.Div(
-                    [dcc.Graph(id = 'joyplot')],
-                    className = 'pretty_container four columns'
-                ),
-            ],
-            className="row flex-display",
-        ),
-        
-        html.Div(id = 'df_streets_data', style = { 'display' : 'none' }),
-        html.Div(
-            [
-                dcc.Graph(id = 'sunburst', className="six columns"),
-                dcc.Graph(id = 'streets_bar', className="six columns"),
-            ],
-            className="pretty_container flex-display",
-        ),
-        html.Div(
-            [
-                dcc.Graph(
-                    id = 'map',
-                    className="nine columns"
-                ),
-                html.Div(
-                    [
-                        html.Div(
-                            [
-                                html.P('Select the regions', className = 'control_label'),
-                                dcc.Dropdown(
-                                    id= 'select_region2',
-                                    options = [{'label' : i, 'value' : i } for i in regions2],
-                                    value = ['Brisbane Inner'],
-                                    multi = True)
-                            ],style = {'padding' : '10px 0px'}
-                        ),
-
-                        html.Div(
-                            [
-                                html.P('Select the incident hour', className = 'control_label'),
-                                dcc.Dropdown(
-                                    id= 'select_hour',
-                                    options = [{'label' : i, 'value' : i } for i in hours],
-                                    value = [],
-                                    multi = True)
-                            ],style = {'padding' : '10px 0px'}
-                        ),
-
-                        html.Div(
-                            [
-                                html.P('Select the severity', className = 'control_label'),
-                                dcc.Dropdown(
-                                    id= 'select_sev',
-                                    options = [{'label' : i, 'value' : i } for i in severity],
-                                    value = [],
-                                    multi = True)
-                            ],style = {'padding' : '10px 0px'}
-                        ),
-                        
-                        html.Div(
-                            [
-                                html.P('Select the Crash Nature', className = 'control_label'),
-                                dcc.Dropdown(
-                                    id= 'select_nature',
-                                    options = [{'label' : i, 'value' : i } for i in nature],
-                                    value = [],
-                                    multi = True)
-                            ],style = {'padding' : '10px 0px'}
-                        )
-                ], className="three columns")
-            ], className = 'pretty_container flex-display'
-        ),
-        html.Div(
-            [
-                html.Div(
-                    [
-                        html.P('Choose the severity', className = 'control_label'),
-                        dcc.RadioItems(
-                            id = 'severity_selector2',
-                            options = [
-                                {'label' : 'All', 'value' : 'all'},
-                                {'label' : 'Fatal', 'value' : 'Fatal'},
-                                {'label' : 'Hospitalisation', 'value' : 'Hospitalisation'},
-                                {'label' : 'Medical Treatment', 'value' : 'Medical treatment'},
-                                {'label' : 'Minor Injury', 'value' : 'Minor injury'},
-                            ],
-                            value = 'all',
-                            labelStyle = {'display' : 'inline-block', 'padding' : '20px', 'font-style': 'italic', 'font-size' : '12px'},
-                            className = 'dcc_control',
-                        ),
-                        dcc.Graph(id = 'conditions_subplot')
-                    ],
-                    className = 'twelve columns'
-                ),
-            ],
-            className="pretty_container flex-display",
-        ),
-        html.Div(
-            [
-                html.Div(
-                    [dcc.Graph(id = 'treemap')],
-                    className = 'twelve columns'
-                ),
-            ],
-            className="pretty_container flex-display"
-        ),
-        html.Div(
-            [
-                html.Div(
-                    [dcc.Graph(id = 'factors_bar')],
-                    className = 'twelve columns',
-                    style = {'flex': 1}
-                ),
-            ],
-            className="pretty_container flex-display",
-        ),
-        html.Div(
-            [
-                dcc.Graph(
-                    id = 'demo_dots',
-                    className = 'eight columns'
-                ),
-                html.Div(
-                    [
-                        dcc.Checklist(
-                            id = 'demo_options',
-                            options = [{'label' : i, 'value' : i} for i in demo_labels],
-                            value = [],
-                            labelStyle = {'font-size' : '10px', 'padding' : '3px', 'display' : 'block'},
-                        )
-                    ],
-                    style = {'margin' : '40px 0 0 0'},
-                    className = 'four columns'
-                )
-            ],
-            className = 'pretty_container flex-display'
-        ),
-        html.Div(
-            [
-                html.Div([
+        dcc.Loading(
+            html.Div(
+                [
+                    
                     html.Div(
                         [
-                            html.P('Choose the Casualty Severity', className = 'control_label'),
+                            html.Div(
+                                [
+                                    html.Div(
+                                        [
+                                            html.Div(
+                                                'Filter by indicent Year:',
+                                            ),
+                                            html.Div(
+                                                id = 'range_year_label',
+                                                className = 'year_label',
+                                            ),
+                                            dcc.RangeSlider(
+                                                id = 'range_year',
+                                                min = df_locations['Crash_Year'].min(),
+                                                max = df_locations['Crash_Year'].max(),
+                                                step = 1,
+                                                marks = {str(year): str(year) for year in [
+                                                    df_locations['Crash_Year'].min(),
+                                                    df_locations['Crash_Year'].max(),
+                                                ]},
+                                                value = [df_locations['Crash_Year'].min(), df_locations['Crash_Year'].max()],
+                                                className = 'dcc_control',
+                                            ),
+
+                                        ],
+                                        className = 'pretty_container four columns',
+                                        id = 'filter_options',
+                                    ),
+
+                                    html.Div(
+                                        [html.H6(id = 'num_acidents'), html.P('No. of Accidents Recorded')],
+                                        id = 'nacidents',
+                                        className = 'mini_container',
+                                    ),
+                                    html.Div(
+                                        [html.H6(id = 'num_fatal'), html.P('No. of Fatalities Recorded')],
+                                        id = 'nfatal',
+                                        className = 'mini_container',
+                                    ),
+                                    html.Div(
+                                        [html.H6(id = 'top_region'), html.P('Region with most incidents occurrencies:')],
+                                        id = 'region',
+                                        className = 'mini_container',
+                                    ),
+                                ],
+                                id = 'info-container',
+                                className = 'row container-display',
+                            ),
+                            html.Div(
+                                [dcc.Graph(id = 'area_chart')],
+                                id = 'countGraphcontainer',
+                                className = 'pretty_container',
+                            ),
+                        ],
+                        id = 'right-column',
+                        className = 'twelve columns',
+                    ),
+                ],
+                className = 'row flex-display',
+            ),
+        ),
+        dcc.Loading(
+            html.Div(
+                [
+                    html.Div(
+                        [
+                            html.P('Choose the severity', className = 'control_label'),
                             dcc.RadioItems(
-                                id = 'casualty_selector',
+                                id = 'severity_selector',
                                 options = [
                                     {'label' : 'All', 'value' : 'all'},
-                                    {'label' : 'Fatality', 'value' : 'Fatality'},
-                                    {'label' : 'Hospitalised', 'value' : 'Hospitalised'},
-                                    {'label' : 'Medically treated', 'value' : 'Medically treated'},
-                                    {'label' : 'Minor injury', 'value' : 'Minor injury'},
+                                    {'label' : 'Fatal', 'value' : 'Fatal'},
+                                    {'label' : 'Hospitalisation', 'value' : 'Hospitalisation'},
+                                    {'label' : 'Medical Treatment', 'value' : 'Medical treatment'},
+                                    {'label' : 'Minor Injury', 'value' : 'Minor injury'},
+                                ],
+                                value = 'all',
+                                labelStyle = {'display' : 'inline-block', 'padding' : '10px', 'font-style': 'italic', 'font-size' : '12px'},
+                                className = 'dcc_control',
+                            ),
+                            dcc.Graph(id = 'nature_bars'),
+                            dcc.Graph(id = 'donut_subplots')
+                        ],
+                        className = 'pretty_container eight columns',
+                    ),
+                    html.Div(
+                        [dcc.Graph(id = 'joyplot')],
+                        className = 'pretty_container four columns'
+                    ),
+                ],
+                className="row flex-display",
+            ),
+        ),
+        html.Div(id = 'df_streets_data', style = { 'display' : 'none' }),
+        dcc.Loading(
+            html.Div(
+                [
+                    html.Div([
+                        dcc.Graph(id = 'sunburst')
+                    ],className="six columns"),
+
+                    html.Div([
+                        dcc.Loading(dcc.Graph(id = 'streets_bar'))
+                    ],className="six columns")
+                ], className="pretty_container flex-display"
+            )
+        ),
+        dcc.Loading(
+            html.Div(
+                [
+                    dcc.Graph(
+                        id = 'map',
+                        className="nine columns"
+                    ),
+                    html.Div(
+                        [
+                            html.Div(
+                                [
+                                    html.P('Select the regions', className = 'control_label'),
+                                    dcc.Dropdown(
+                                        id= 'select_region2',
+                                        options = [{'label' : i, 'value' : i } for i in regions2],
+                                        value = ['Brisbane Inner'],
+                                        multi = True)
+                                ],style = {'padding' : '10px 0px'}
+                            ),
+
+                            html.Div(
+                                [
+                                    html.P('Select the incident hour', className = 'control_label'),
+                                    dcc.Dropdown(
+                                        id= 'select_hour',
+                                        options = [{'label' : i, 'value' : i } for i in hours],
+                                        value = [],
+                                        multi = True)
+                                ],style = {'padding' : '10px 0px'}
+                            ),
+
+                            html.Div(
+                                [
+                                    html.P('Select the severity', className = 'control_label'),
+                                    dcc.Dropdown(
+                                        id= 'select_sev',
+                                        options = [{'label' : i, 'value' : i } for i in severity],
+                                        value = [],
+                                        multi = True)
+                                ],style = {'padding' : '10px 0px'}
+                            ),
+                            
+                            html.Div(
+                                [
+                                    html.P('Select the Crash Nature', className = 'control_label'),
+                                    dcc.Dropdown(
+                                        id= 'select_nature',
+                                        options = [{'label' : i, 'value' : i } for i in nature],
+                                        value = [],
+                                        multi = True)
+                                ],style = {'padding' : '10px 0px'}
+                            )
+                    ], className="three columns")
+                ], className = 'pretty_container flex-display'
+            )
+        ),
+        dcc.Loading(
+            html.Div(
+                [
+                    html.Div(
+                        [
+                            html.P('Choose the severity', className = 'control_label'),
+                            dcc.RadioItems(
+                                id = 'severity_selector2',
+                                options = [
+                                    {'label' : 'All', 'value' : 'all'},
+                                    {'label' : 'Fatal', 'value' : 'Fatal'},
+                                    {'label' : 'Hospitalisation', 'value' : 'Hospitalisation'},
+                                    {'label' : 'Medical Treatment', 'value' : 'Medical treatment'},
+                                    {'label' : 'Minor Injury', 'value' : 'Minor injury'},
                                 ],
                                 value = 'all',
                                 labelStyle = {'display' : 'inline-block', 'padding' : '20px', 'font-style': 'italic', 'font-size' : '12px'},
                                 className = 'dcc_control',
                             ),
+                            dcc.Graph(id = 'conditions_subplot')
                         ],
+                        className = 'twelve columns'
+                    ),
+                ],
+                className="pretty_container flex-display",
+            )
+        ),
+        dcc.Loading(
+            html.Div(
+                [
+                    html.Div(
+                        [dcc.Graph(id = 'treemap')],
+                        className = 'twelve columns'
+                    ),
+                ],
+                className="pretty_container flex-display"
+            )
+        ),
+        dcc.Loading(
+            html.Div(
+                [
+                    html.Div(
+                        [dcc.Graph(id = 'factors_bar')],
+                        className = 'twelve columns',
+                        style = {'flex': 1}
+                    ),
+                ],
+                className="pretty_container flex-display",
+            )
+        ),
+        dcc.Loading(
+            html.Div(
+                [
+                    dcc.Graph(
+                        id = 'demo_dots',
                         className = 'eight columns'
                     ),
                     html.Div(
                         [
-                            html.Button('Click to reset for Total values', id='reset_total', n_clicks = 0),
+                            dcc.Checklist(
+                                id = 'demo_options',
+                                options = [{'label' : i, 'value' : i} for i in demo_labels],
+                                value = [],
+                                labelStyle = {'font-size' : '10px', 'padding' : '3px', 'display' : 'block'},
+                            )
                         ],
+                        style = {'margin' : '40px 0 0 0'},
                         className = 'four columns'
                     )
-                ], className="flex-display"),
-                html.Div([
-                    html.Div(
-                        [
-                            dcc.Graph(id = 'casualties_chart')
-                        ],
-                        className = 'eight columns'
-                    ),
-                    html.Div(
-                        [
-                            dcc.Graph(id = 'casualties_bars'),
-                        ],
-                        className = 'four columns'
-                    )
-                ], className="flex-display"),
-            ],
-            className="pretty_container",
+                ],
+                className = 'pretty_container flex-display'
+            )
+        ),
+        dcc.Loading(
+            html.Div(
+                [
+                    html.Div([
+                        html.Div(
+                            [
+                                html.P('Choose the Casualty Severity', className = 'control_label'),
+                                dcc.RadioItems(
+                                    id = 'casualty_selector',
+                                    options = [
+                                        {'label' : 'All', 'value' : 'all'},
+                                        {'label' : 'Fatality', 'value' : 'Fatality'},
+                                        {'label' : 'Hospitalised', 'value' : 'Hospitalised'},
+                                        {'label' : 'Medically treated', 'value' : 'Medically treated'},
+                                        {'label' : 'Minor injury', 'value' : 'Minor injury'},
+                                    ],
+                                    value = 'all',
+                                    labelStyle = {'display' : 'inline-block', 'padding' : '20px', 'font-style': 'italic', 'font-size' : '12px'},
+                                    className = 'dcc_control',
+                                ),
+                            ],
+                            className = 'eight columns'
+                        ),
+                        html.Div(
+                            [
+                                html.Button('Click to reset for Total values', id='reset_total', n_clicks = 0),
+                            ],
+                            className = 'four columns'
+                        )
+                    ], className="flex-display"),
+                    html.Div([
+                        html.Div(
+                            [
+                                dcc.Graph(id = 'casualties_chart')
+                            ],
+                            className = 'eight columns'
+                        ),
+                        html.Div(
+                            [
+                                dcc.Graph(id = 'casualties_bars'),
+                            ],
+                            className = 'four columns'
+                        )
+                    ], className="flex-display"),
+                ],
+                className="pretty_container",
+            )
         )
     ],
     id = 'mainContainer',
@@ -399,7 +438,6 @@ app.layout = html.Div(
 )
 
 #Helper functions
-#html.Pre(id = 'hoverdata', style = styles['pre']),
 
 def filter_dataframe(df, range_year):
     dff = df.loc[df['Crash_Year'].between(range_year[0], range_year[1])].copy()
@@ -514,7 +552,8 @@ def update_area_chart(range_year):
                     height = 500,
                     barmode = 'stack',
                     hoverlabel = {'font' : {'size' : 10}},
-                    title_text="Incidents per Month",
+                    title = "Number of incidents per month",
+                    font = {'size' : 10},
                     plot_bgcolor="#F9F9F9",
                     paper_bgcolor="#F9F9F9",
                     legend_orientation = 'h',
@@ -606,7 +645,8 @@ def update_joyplot(range_year):
                     height=800,
                     hoverlabel = {'font' : {'size' : 10}},
                     hovermode = 'closest',
-                    title_text="Incidents Day of the Week X Hour of Day",
+                    title="Incidents per day of the week and hour of day",
+                    font = {'size' : 10},
                     plot_bgcolor="#F9F9F9",
                     paper_bgcolor="#F9F9F9",
                     legend_orientation = 'h',
@@ -698,7 +738,8 @@ def update_nature(sev, range_year):
                     barmode = 'stack',
                     showlegend = False,
                     hoverlabel = {'font' : {'size' : 10}},
-                    title_text="Crash Nature",
+                    title_text="Incident nature",
+                    font = {'size' : 10},
                     plot_bgcolor="#F9F9F9",
                     paper_bgcolor="#F9F9F9",
                     margin=dict(l=0, r=0, b=0, t=40))
@@ -803,7 +844,8 @@ def update_donut(sev, range_year):
     )
 
     fig_donut.update_layout(
-        title_text="Crash Type",
+        title_text="Incident type",
+        font = {'size' : 10},
         height = 400,
         annotations=[go.layout.Annotation(
                                 font = {'size' : 12})],
@@ -956,8 +998,8 @@ def update_sunburst(range_year):
         name=''
         )],
         'layout' : go.Layout(
-            title = 'Brisbane Regions',
-            font = {'size' : 12},
+            title = 'Number of incidents per region(click in the region to expand the chart)',
+            font = {'size' : 10},
             height = 600,
             hoverlabel = {'font' : {'size' : 10}},
             plot_bgcolor="#F9F9F9",
@@ -982,7 +1024,7 @@ def update_streets(hoverData, json_df):
 
     dff = build_hierarchical_dataframe(dff_st, levels, value_column)
 
-    name = 'Hover over the outer regions to see the main streets'
+    name = 'Hover over the outer regions to see the streets with most incidents occurrences'
 
     color_dic = {'#cee4ff': '#106db2',
                 '#b1ecfa': '#40818f',
@@ -1082,7 +1124,8 @@ def update_streets(hoverData, json_df):
 
                 'layout' : go.Layout(
                     showlegend = False,
-                    title = 'Main Streets - ' + name,
+                    title = name,
+                    font = {'size' : 10},
                     xaxis  = {
                             'visible' : False,
                             'showline' : False,
@@ -1107,6 +1150,7 @@ def update_streets(hoverData, json_df):
                 'layout' : go.Layout(
                     showlegend = False,
                     title = name,
+                    font = {'size' : 10},
                     plot_bgcolor="#F9F9F9",
                     paper_bgcolor="#F9F9F9",
                     xaxis  = {
@@ -1183,7 +1227,8 @@ def update_map(regions, hour, sev, nat, range_year):
             text= dff.text,
         )],
         'layout' : go.Layout(
-            title = 'Crash Locations',
+            title = 'Incident details',
+            font = {'size' : 10},
             height = 500,
             hovermode='closest',
             plot_bgcolor="#F9F9F9",
@@ -1346,7 +1391,8 @@ def update_conditions_subplot(sev, range_year):
 
     fig.update_layout(go.Layout(
                             showlegend = False,
-                            font = {'size' : 12}),
+                            title = 'Incidents conditions',
+                            font = {'size' : 10}),
                             plot_bgcolor="#F9F9F9",
                             paper_bgcolor="#F9F9F9",
                             height = 800,
@@ -1446,8 +1492,8 @@ def update_treemap(range_year):
 
     fig.update_layout(go.Layout(
                                 showlegend = False,
-                                title = 'Vehicles',
-                                font = {'size' : 12},
+                                title = 'Incidents vehicles types',
+                                font = {'size' : 10},
                                 hoverlabel = {'font' : {'size' : 10}},
                                 plot_bgcolor="#F9F9F9",
                                 paper_bgcolor="#F9F9F9",
@@ -1589,7 +1635,8 @@ def update_factors(range_year):
 
                 
     fig_factors.update_layout(
-        title = 'Crash Factors x Crash Severity',
+        title = 'Incidents factors',
+        font = {'size' : 10},
         showlegend = True,
         barmode='stack',
         yaxis = {'visible' : True,
@@ -2027,7 +2074,8 @@ def update_demo_dots(categories, range_year):
     fig.update_traces(mode='markers', marker=dict(line_width=1.5, symbol='circle', size=((48/len(categories_list))+12)))
 
     fig.update_layout(
-        title= 'Crash Demographics Information',
+        title= 'Incidents demographic information',
+        font = {'size' : 10},
         xaxis=dict(
             showgrid=False,
             linecolor='#d1d1d1',
@@ -2139,7 +2187,8 @@ def update_casualties_chart(cas, range_year):
                     clickmode = 'event+select',
                     hoverlabel = {'font' : {'size' : 10}},
                     legend=dict(font_size=10),
-                    title_text="Casualties by Gender and Age Group",
+                    title_text="Casualties by Gender and Age Group (click in the bar to see the road user type details)",
+                    font = {'size' : 10},
                     plot_bgcolor="#F9F9F9",
                     paper_bgcolor="#F9F9F9",
                     margin=dict(l=0, r=0, b=0, t=40)),
@@ -2318,7 +2367,7 @@ def update_casualties_bars(cas, clickData, n_clicks, range_year):
 
                         showlegend = False,
                         title = title,
-                        font = {'size' : 12},
+                        font = {'size' : 10},
                         height = 600,
                         plot_bgcolor="#F9F9F9",
                         paper_bgcolor="#F9F9F9",

@@ -148,7 +148,7 @@ transform: translate(30px, 349px);
     font-size: 12px;
 }
 
-.contact h6 {
+.contact span {
     font-size: 16px;
     color: black;
 }
@@ -157,3 +157,14 @@ transform: translate(30px, 349px);
     font-size: 16px;
     color: #ccc;
 }
+
+.contact a {
+    vertical-align: middle;
+}
+
+.links {
+    font-size: 12px;
+    font-style: italic;
+    padding-right: 10px;
+}
+
