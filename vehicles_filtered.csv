@@ -1,0 +1,475 @@
+,Crash_Year,Crash_Police_Region,Crash_Severity,Involving_Motorcycle_Moped,Involving_Truck,Involving_Bus,Count_Crashes,Count_Casualty_Fatality,Count_Casualty_Hospitalised,Count_Casualty_MedicallyTreated,Count_Casualty_MinorInjury,Count_Casualty_All
+0,2001,Brisbane,Fatal,0,0,0,41,43,20,3,0,66
+1,2001,Brisbane,Fatal,0,0,1,1,1,1,0,0,2
+2,2001,Brisbane,Fatal,0,1,0,2,2,0,1,2,5
+3,2001,Brisbane,Fatal,1,0,0,5,5,0,2,0,7
+4,2001,Brisbane,Fatal,1,1,0,1,1,0,0,0,1
+5,2001,Brisbane,Hospitalisation,0,0,0,917,0,1085,117,75,1277
+6,2001,Brisbane,Hospitalisation,0,0,1,20,0,22,8,1,31
+7,2001,Brisbane,Hospitalisation,0,1,0,75,0,86,4,4,94
+8,2001,Brisbane,Hospitalisation,1,0,0,169,0,177,9,5,191
+9,2001,Brisbane,Hospitalisation,1,0,1,1,0,1,0,0,1
+10,2001,Brisbane,Hospitalisation,1,1,0,6,0,6,0,0,6
+11,2001,Brisbane,Medical treatment,0,0,0,1822,0,0,2178,130,2308
+12,2001,Brisbane,Medical treatment,0,0,1,56,0,0,65,2,67
+13,2001,Brisbane,Medical treatment,0,1,0,138,0,0,159,7,166
+14,2001,Brisbane,Medical treatment,0,1,1,1,0,0,1,0,1
+15,2001,Brisbane,Medical treatment,1,0,0,158,0,0,165,6,171
+16,2001,Brisbane,Medical treatment,1,1,0,8,0,0,8,0,8
+17,2001,Brisbane,Minor injury,0,0,0,1218,0,0,0,1455,1455
+18,2001,Brisbane,Minor injury,0,0,1,24,0,0,0,28,28
+19,2001,Brisbane,Minor injury,0,1,0,104,0,0,0,129,129
+20,2001,Brisbane,Minor injury,1,0,0,88,0,0,0,94,94
+21,2001,Brisbane,Minor injury,1,1,0,2,0,0,0,2,2
+22,2001,Brisbane,Property damage only,0,0,0,2244,0,0,0,0,0
+23,2001,Brisbane,Property damage only,0,0,1,35,0,0,0,0,0
+24,2001,Brisbane,Property damage only,0,1,0,190,0,0,0,0,0
+25,2001,Brisbane,Property damage only,1,0,0,4,0,0,0,0,0
+26,2001,Brisbane,Property damage only,1,0,1,1,0,0,0,0,0
+27,2001,Brisbane,Property damage only,1,1,0,1,0,0,0,0,0
+28,2002,Brisbane,Fatal,0,0,0,27,30,9,1,2,42
+29,2002,Brisbane,Fatal,0,0,1,1,1,0,0,1,2
+30,2002,Brisbane,Fatal,0,1,0,4,4,2,0,0,6
+31,2002,Brisbane,Fatal,1,0,0,8,8,1,1,0,10
+32,2002,Brisbane,Fatal,1,1,0,2,2,0,0,0,2
+33,2002,Brisbane,Hospitalisation,0,0,0,976,0,1194,159,91,1444
+34,2002,Brisbane,Hospitalisation,0,0,1,35,0,43,14,3,60
+35,2002,Brisbane,Hospitalisation,0,1,0,80,0,87,7,4,98
+36,2002,Brisbane,Hospitalisation,0,1,1,2,0,2,0,0,2
+37,2002,Brisbane,Hospitalisation,1,0,0,199,0,207,6,7,220
+38,2002,Brisbane,Hospitalisation,1,0,1,1,0,1,0,0,1
+39,2002,Brisbane,Hospitalisation,1,1,0,7,0,7,0,0,7
+40,2002,Brisbane,Medical treatment,0,0,0,1792,0,0,2121,142,2263
+41,2002,Brisbane,Medical treatment,0,0,1,40,0,0,50,4,54
+42,2002,Brisbane,Medical treatment,0,1,0,115,0,0,136,7,143
+43,2002,Brisbane,Medical treatment,0,1,1,3,0,0,4,2,6
+44,2002,Brisbane,Medical treatment,1,0,0,143,0,0,151,1,152
+45,2002,Brisbane,Medical treatment,1,0,1,2,0,0,2,0,2
+46,2002,Brisbane,Medical treatment,1,1,0,3,0,0,3,0,3
+47,2002,Brisbane,Minor injury,0,0,0,1068,0,0,0,1298,1298
+48,2002,Brisbane,Minor injury,0,0,1,22,0,0,0,31,31
+49,2002,Brisbane,Minor injury,0,1,0,80,0,0,0,87,87
+50,2002,Brisbane,Minor injury,1,0,0,83,0,0,0,85,85
+51,2002,Brisbane,Property damage only,0,0,0,2195,0,0,0,0,0
+52,2002,Brisbane,Property damage only,0,0,1,26,0,0,0,0,0
+53,2002,Brisbane,Property damage only,0,1,0,227,0,0,0,0,0
+54,2002,Brisbane,Property damage only,1,0,0,6,0,0,0,0,0
+55,2003,Brisbane,Fatal,0,0,0,33,33,11,7,0,51
+56,2003,Brisbane,Fatal,0,0,1,2,2,1,0,0,3
+57,2003,Brisbane,Fatal,0,1,0,12,12,4,1,1,18
+58,2003,Brisbane,Fatal,1,0,0,9,9,1,1,1,12
+59,2003,Brisbane,Fatal,1,1,0,1,1,0,0,0,1
+60,2003,Brisbane,Hospitalisation,0,0,0,1014,0,1236,153,68,1457
+61,2003,Brisbane,Hospitalisation,0,0,1,22,0,29,15,0,44
+62,2003,Brisbane,Hospitalisation,0,1,0,93,0,112,6,10,128
+63,2003,Brisbane,Hospitalisation,0,1,1,1,0,1,0,0,1
+64,2003,Brisbane,Hospitalisation,1,0,0,179,0,184,3,7,194
+65,2003,Brisbane,Hospitalisation,1,0,1,1,0,1,0,0,1
+66,2003,Brisbane,Hospitalisation,1,1,0,7,0,7,0,0,7
+67,2003,Brisbane,Medical treatment,0,0,0,1748,0,0,2135,150,2285
+68,2003,Brisbane,Medical treatment,0,0,1,39,0,0,44,4,48
+69,2003,Brisbane,Medical treatment,0,1,0,142,0,0,165,5,170
+70,2003,Brisbane,Medical treatment,0,1,1,3,0,0,5,3,8
+71,2003,Brisbane,Medical treatment,1,0,0,146,0,0,153,6,159
+72,2003,Brisbane,Medical treatment,1,0,1,1,0,0,1,0,1
+73,2003,Brisbane,Medical treatment,1,1,0,6,0,0,6,0,6
+74,2003,Brisbane,Minor injury,0,0,0,1059,0,0,0,1297,1297
+75,2003,Brisbane,Minor injury,0,0,1,25,0,0,0,31,31
+76,2003,Brisbane,Minor injury,0,1,0,85,0,0,0,93,93
+77,2003,Brisbane,Minor injury,0,1,1,1,0,0,0,1,1
+78,2003,Brisbane,Minor injury,1,0,0,73,0,0,0,78,78
+79,2003,Brisbane,Minor injury,1,1,0,7,0,0,0,8,8
+80,2003,Brisbane,Property damage only,0,0,0,2258,0,0,0,0,0
+81,2003,Brisbane,Property damage only,0,0,1,37,0,0,0,0,0
+82,2003,Brisbane,Property damage only,0,1,0,218,0,0,0,0,0
+83,2003,Brisbane,Property damage only,0,1,1,3,0,0,0,0,0
+84,2003,Brisbane,Property damage only,1,0,0,7,0,0,0,0,0
+85,2004,Brisbane,Fatal,0,0,0,35,36,19,6,3,64
+86,2004,Brisbane,Fatal,0,0,1,2,2,0,0,0,2
+87,2004,Brisbane,Fatal,0,1,0,7,7,3,1,0,11
+88,2004,Brisbane,Fatal,1,0,0,8,8,0,0,0,8
+89,2004,Brisbane,Fatal,1,1,0,2,2,0,0,0,2
+90,2004,Brisbane,Hospitalisation,0,0,0,1099,0,1344,143,76,1563
+91,2004,Brisbane,Hospitalisation,0,0,1,36,0,44,8,3,55
+92,2004,Brisbane,Hospitalisation,0,1,0,94,0,113,5,8,126
+93,2004,Brisbane,Hospitalisation,0,1,1,2,0,2,1,0,3
+94,2004,Brisbane,Hospitalisation,1,0,0,210,0,217,11,14,242
+95,2004,Brisbane,Hospitalisation,1,0,1,1,0,1,0,0,1
+96,2004,Brisbane,Hospitalisation,1,1,0,11,0,11,5,0,16
+97,2004,Brisbane,Medical treatment,0,0,0,1715,0,0,2085,146,2231
+98,2004,Brisbane,Medical treatment,0,0,1,40,0,0,48,0,48
+99,2004,Brisbane,Medical treatment,0,1,0,153,0,0,178,12,190
+100,2004,Brisbane,Medical treatment,0,1,1,2,0,0,2,0,2
+101,2004,Brisbane,Medical treatment,1,0,0,172,0,0,175,5,180
+102,2004,Brisbane,Medical treatment,1,0,1,1,0,0,1,0,1
+103,2004,Brisbane,Medical treatment,1,1,0,8,0,0,8,0,8
+104,2004,Brisbane,Minor injury,0,0,0,1007,0,0,0,1194,1194
+105,2004,Brisbane,Minor injury,0,0,1,19,0,0,0,28,28
+106,2004,Brisbane,Minor injury,0,1,0,71,0,0,0,82,82
+107,2004,Brisbane,Minor injury,1,0,0,76,0,0,0,81,81
+108,2004,Brisbane,Minor injury,1,0,1,2,0,0,0,2,2
+109,2004,Brisbane,Minor injury,1,1,0,1,0,0,0,1,1
+110,2004,Brisbane,Property damage only,0,0,0,2384,0,0,0,0,0
+111,2004,Brisbane,Property damage only,0,0,1,49,0,0,0,0,0
+112,2004,Brisbane,Property damage only,0,1,0,254,0,0,0,0,0
+113,2004,Brisbane,Property damage only,0,1,1,3,0,0,0,0,0
+114,2004,Brisbane,Property damage only,1,0,0,22,0,0,0,0,0
+115,2004,Brisbane,Property damage only,1,1,0,1,0,0,0,0,0
+116,2005,Brisbane,Fatal,0,0,0,26,27,14,2,1,44
+117,2005,Brisbane,Fatal,0,0,1,1,1,0,0,0,1
+118,2005,Brisbane,Fatal,0,1,0,2,2,0,0,0,2
+119,2005,Brisbane,Fatal,1,0,0,16,16,1,2,0,19
+120,2005,Brisbane,Hospitalisation,0,0,0,1134,0,1377,159,89,1625
+121,2005,Brisbane,Hospitalisation,0,0,1,37,0,53,11,12,76
+122,2005,Brisbane,Hospitalisation,0,1,0,91,0,98,9,8,115
+123,2005,Brisbane,Hospitalisation,0,1,1,1,0,1,1,0,2
+124,2005,Brisbane,Hospitalisation,1,0,0,249,0,263,7,3,273
+125,2005,Brisbane,Hospitalisation,1,1,0,9,0,9,0,0,9
+126,2005,Brisbane,Medical treatment,0,0,0,1650,0,0,2032,166,2198
+127,2005,Brisbane,Medical treatment,0,0,1,44,0,0,51,0,51
+128,2005,Brisbane,Medical treatment,0,1,0,124,0,0,147,11,158
+129,2005,Brisbane,Medical treatment,0,1,1,2,0,0,2,0,2
+130,2005,Brisbane,Medical treatment,1,0,0,179,0,0,186,6,192
+131,2005,Brisbane,Medical treatment,1,1,0,6,0,0,6,0,6
+132,2005,Brisbane,Minor injury,0,0,0,863,0,0,0,1050,1050
+133,2005,Brisbane,Minor injury,0,0,1,27,0,0,0,30,30
+134,2005,Brisbane,Minor injury,0,1,0,74,0,0,0,83,83
+135,2005,Brisbane,Minor injury,0,1,1,1,0,0,0,1,1
+136,2005,Brisbane,Minor injury,1,0,0,91,0,0,0,95,95
+137,2005,Brisbane,Minor injury,1,1,0,3,0,0,0,3,3
+138,2005,Brisbane,Property damage only,0,0,0,2252,0,0,0,0,0
+139,2005,Brisbane,Property damage only,0,0,1,29,0,0,0,0,0
+140,2005,Brisbane,Property damage only,0,1,0,255,0,0,0,0,0
+141,2005,Brisbane,Property damage only,0,1,1,1,0,0,0,0,0
+142,2005,Brisbane,Property damage only,1,0,0,11,0,0,0,0,0
+143,2005,Brisbane,Property damage only,1,1,0,2,0,0,0,0,0
+144,2006,Brisbane,Fatal,0,0,0,28,32,5,8,1,46
+145,2006,Brisbane,Fatal,0,0,1,3,3,1,0,0,4
+146,2006,Brisbane,Fatal,0,1,0,8,8,2,3,2,15
+147,2006,Brisbane,Fatal,1,0,0,10,10,0,4,0,14
+148,2006,Brisbane,Hospitalisation,0,0,0,1032,0,1275,144,106,1525
+149,2006,Brisbane,Hospitalisation,0,0,1,25,0,31,13,5,49
+150,2006,Brisbane,Hospitalisation,0,1,0,85,0,98,10,7,115
+151,2006,Brisbane,Hospitalisation,0,1,1,1,0,2,0,0,2
+152,2006,Brisbane,Hospitalisation,1,0,0,287,0,307,11,10,328
+153,2006,Brisbane,Hospitalisation,1,0,1,1,0,1,0,0,1
+154,2006,Brisbane,Hospitalisation,1,1,0,6,0,6,0,0,6
+155,2006,Brisbane,Medical treatment,0,0,0,1641,0,0,1935,173,2108
+156,2006,Brisbane,Medical treatment,0,0,1,35,0,0,38,6,44
+157,2006,Brisbane,Medical treatment,0,1,0,124,0,0,142,15,157
+158,2006,Brisbane,Medical treatment,0,1,1,5,0,0,5,1,6
+159,2006,Brisbane,Medical treatment,1,0,0,193,0,0,198,9,207
+160,2006,Brisbane,Medical treatment,1,0,1,1,0,0,1,0,1
+161,2006,Brisbane,Medical treatment,1,1,0,8,0,0,8,0,8
+162,2006,Brisbane,Minor injury,0,0,0,968,0,0,0,1137,1137
+163,2006,Brisbane,Minor injury,0,0,1,16,0,0,0,18,18
+164,2006,Brisbane,Minor injury,0,1,0,88,0,0,0,100,100
+165,2006,Brisbane,Minor injury,0,1,1,2,0,0,0,3,3
+166,2006,Brisbane,Minor injury,1,0,0,94,0,0,0,101,101
+167,2006,Brisbane,Minor injury,1,0,1,1,0,0,0,1,1
+168,2006,Brisbane,Minor injury,1,1,0,4,0,0,0,4,4
+169,2006,Brisbane,Property damage only,0,0,0,2065,0,0,0,0,0
+170,2006,Brisbane,Property damage only,0,0,1,30,0,0,0,0,0
+171,2006,Brisbane,Property damage only,0,1,0,225,0,0,0,0,0
+172,2006,Brisbane,Property damage only,1,0,0,7,0,0,0,0,0
+173,2007,Brisbane,Fatal,0,0,0,35,35,22,2,8,67
+174,2007,Brisbane,Fatal,0,0,1,1,1,0,0,0,1
+175,2007,Brisbane,Fatal,0,1,0,9,9,2,3,2,16
+176,2007,Brisbane,Fatal,1,0,0,12,12,4,1,0,17
+177,2007,Brisbane,Fatal,1,1,0,2,2,0,1,0,3
+178,2007,Brisbane,Hospitalisation,0,0,0,1075,0,1288,155,149,1592
+179,2007,Brisbane,Hospitalisation,0,0,1,27,0,27,3,5,35
+180,2007,Brisbane,Hospitalisation,0,1,0,104,0,123,10,14,147
+181,2007,Brisbane,Hospitalisation,1,0,0,277,0,285,9,22,316
+182,2007,Brisbane,Hospitalisation,1,0,1,1,0,1,0,0,1
+183,2007,Brisbane,Hospitalisation,1,1,0,10,0,11,0,0,11
+184,2007,Brisbane,Medical treatment,0,0,0,1566,0,0,1867,220,2087
+185,2007,Brisbane,Medical treatment,0,0,1,41,0,0,55,2,57
+186,2007,Brisbane,Medical treatment,0,1,0,152,0,0,170,15,185
+187,2007,Brisbane,Medical treatment,0,1,1,4,0,0,6,0,6
+188,2007,Brisbane,Medical treatment,1,0,0,184,0,0,201,14,215
+189,2007,Brisbane,Medical treatment,1,0,1,4,0,0,5,1,6
+190,2007,Brisbane,Medical treatment,1,1,0,9,0,0,9,0,9
+191,2007,Brisbane,Minor injury,0,0,0,993,0,0,0,1206,1206
+192,2007,Brisbane,Minor injury,0,0,1,30,0,0,0,33,33
+193,2007,Brisbane,Minor injury,0,1,0,91,0,0,0,109,109
+194,2007,Brisbane,Minor injury,0,1,1,1,0,0,0,1,1
+195,2007,Brisbane,Minor injury,1,0,0,101,0,0,0,103,103
+196,2007,Brisbane,Minor injury,1,0,1,2,0,0,0,2,2
+197,2007,Brisbane,Minor injury,1,1,0,6,0,0,0,6,6
+198,2007,Brisbane,Property damage only,0,0,0,1788,0,0,0,0,0
+199,2007,Brisbane,Property damage only,0,0,1,46,0,0,0,0,0
+200,2007,Brisbane,Property damage only,0,1,0,235,0,0,0,0,0
+201,2007,Brisbane,Property damage only,0,1,1,2,0,0,0,0,0
+202,2007,Brisbane,Property damage only,1,0,0,12,0,0,0,0,0
+203,2007,Brisbane,Property damage only,1,0,1,1,0,0,0,0,0
+204,2008,Brisbane,Fatal,0,0,0,19,19,8,4,1,32
+205,2008,Brisbane,Fatal,0,0,1,1,1,2,1,1,5
+206,2008,Brisbane,Fatal,0,1,0,1,1,0,3,0,4
+207,2008,Brisbane,Fatal,1,0,0,10,10,0,1,1,12
+208,2008,Brisbane,Fatal,1,0,1,2,2,0,0,1,3
+209,2008,Brisbane,Fatal,1,1,0,3,3,0,1,0,4
+210,2008,Brisbane,Hospitalisation,0,0,0,1145,0,1401,187,160,1748
+211,2008,Brisbane,Hospitalisation,0,0,1,55,0,68,6,11,85
+212,2008,Brisbane,Hospitalisation,0,1,0,104,0,121,23,8,152
+213,2008,Brisbane,Hospitalisation,0,1,1,2,0,3,0,1,4
+214,2008,Brisbane,Hospitalisation,1,0,0,298,0,308,12,22,342
+215,2008,Brisbane,Hospitalisation,1,0,1,3,0,3,0,0,3
+216,2008,Brisbane,Hospitalisation,1,1,0,7,0,7,0,0,7
+217,2008,Brisbane,Medical treatment,0,0,0,1627,0,0,1960,245,2205
+218,2008,Brisbane,Medical treatment,0,0,1,64,0,0,78,7,85
+219,2008,Brisbane,Medical treatment,0,1,0,165,0,0,188,23,211
+220,2008,Brisbane,Medical treatment,0,1,1,3,0,0,4,1,5
+221,2008,Brisbane,Medical treatment,1,0,0,221,0,0,233,12,245
+222,2008,Brisbane,Medical treatment,1,0,1,1,0,0,1,0,1
+223,2008,Brisbane,Medical treatment,1,1,0,6,0,0,6,0,6
+224,2008,Brisbane,Minor injury,0,0,0,867,0,0,0,1053,1053
+225,2008,Brisbane,Minor injury,0,0,1,24,0,0,0,28,28
+226,2008,Brisbane,Minor injury,0,1,0,94,0,0,0,113,113
+227,2008,Brisbane,Minor injury,0,1,1,2,0,0,0,2,2
+228,2008,Brisbane,Minor injury,1,0,0,74,0,0,0,82,82
+229,2008,Brisbane,Minor injury,1,1,0,3,0,0,0,3,3
+230,2008,Brisbane,Property damage only,0,0,0,1954,0,0,0,0,0
+231,2008,Brisbane,Property damage only,0,0,1,45,0,0,0,0,0
+232,2008,Brisbane,Property damage only,0,1,0,239,0,0,0,0,0
+233,2008,Brisbane,Property damage only,0,1,1,4,0,0,0,0,0
+234,2008,Brisbane,Property damage only,1,0,0,11,0,0,0,0,0
+235,2009,Brisbane,Fatal,0,0,0,17,17,8,6,5,36
+236,2009,Brisbane,Fatal,0,0,1,1,1,0,0,0,1
+237,2009,Brisbane,Fatal,0,1,0,5,5,1,0,0,6
+238,2009,Brisbane,Fatal,1,0,0,11,11,1,1,2,15
+239,2009,Brisbane,Fatal,1,1,0,2,2,0,0,1,3
+240,2009,Brisbane,Hospitalisation,0,0,0,1179,0,1403,210,127,1740
+241,2009,Brisbane,Hospitalisation,0,0,1,38,0,47,2,3,52
+242,2009,Brisbane,Hospitalisation,0,1,0,118,0,142,9,12,163
+243,2009,Brisbane,Hospitalisation,0,1,1,2,0,2,0,0,2
+244,2009,Brisbane,Hospitalisation,1,0,0,288,0,304,10,9,323
+245,2009,Brisbane,Hospitalisation,1,0,1,3,0,3,1,0,4
+246,2009,Brisbane,Hospitalisation,1,1,0,10,0,11,0,0,11
+247,2009,Brisbane,Medical treatment,0,0,0,1624,0,0,1933,165,2098
+248,2009,Brisbane,Medical treatment,0,0,1,59,0,0,69,17,86
+249,2009,Brisbane,Medical treatment,0,1,0,149,0,0,189,12,201
+250,2009,Brisbane,Medical treatment,0,1,1,3,0,0,3,0,3
+251,2009,Brisbane,Medical treatment,1,0,0,183,0,0,188,7,195
+252,2009,Brisbane,Medical treatment,1,0,1,3,0,0,3,0,3
+253,2009,Brisbane,Medical treatment,1,1,0,2,0,0,2,0,2
+254,2009,Brisbane,Minor injury,0,0,0,688,0,0,0,814,814
+255,2009,Brisbane,Minor injury,0,0,1,17,0,0,0,21,21
+256,2009,Brisbane,Minor injury,0,1,0,54,0,0,0,63,63
+257,2009,Brisbane,Minor injury,1,0,0,81,0,0,0,81,81
+258,2009,Brisbane,Minor injury,1,0,1,1,0,0,0,1,1
+259,2009,Brisbane,Property damage only,0,0,0,1955,0,0,0,0,0
+260,2009,Brisbane,Property damage only,0,0,1,56,0,0,0,0,0
+261,2009,Brisbane,Property damage only,0,1,0,248,0,0,0,0,0
+262,2009,Brisbane,Property damage only,0,1,1,2,0,0,0,0,0
+263,2009,Brisbane,Property damage only,1,0,0,6,0,0,0,0,0
+264,2010,Brisbane,Fatal,0,0,0,17,17,7,1,2,27
+265,2010,Brisbane,Fatal,0,1,0,4,5,0,1,0,6
+266,2010,Brisbane,Fatal,1,0,0,10,10,3,1,1,15
+267,2010,Brisbane,Fatal,1,0,1,1,2,0,1,0,3
+268,2010,Brisbane,Fatal,1,1,0,1,1,0,0,0,1
+269,2010,Brisbane,Hospitalisation,0,0,0,1257,0,1504,206,127,1837
+270,2010,Brisbane,Hospitalisation,0,0,1,30,0,36,6,3,45
+271,2010,Brisbane,Hospitalisation,0,1,0,110,0,127,16,8,151
+272,2010,Brisbane,Hospitalisation,1,0,0,245,0,250,6,9,265
+273,2010,Brisbane,Hospitalisation,1,0,1,4,0,5,1,0,6
+274,2010,Brisbane,Hospitalisation,1,1,0,5,0,5,2,1,8
+275,2010,Brisbane,Medical treatment,0,0,0,1619,0,0,1908,162,2070
+276,2010,Brisbane,Medical treatment,0,0,1,64,0,0,82,6,88
+277,2010,Brisbane,Medical treatment,0,1,0,132,0,0,151,17,168
+278,2010,Brisbane,Medical treatment,0,1,1,2,0,0,3,1,4
+279,2010,Brisbane,Medical treatment,1,0,0,160,0,0,170,6,176
+280,2010,Brisbane,Medical treatment,1,0,1,4,0,0,4,0,4
+281,2010,Brisbane,Medical treatment,1,1,0,3,0,0,3,1,4
+282,2010,Brisbane,Minor injury,0,0,0,708,0,0,0,856,856
+283,2010,Brisbane,Minor injury,0,0,1,20,0,0,0,20,20
+284,2010,Brisbane,Minor injury,0,1,0,66,0,0,0,78,78
+285,2010,Brisbane,Minor injury,0,1,1,1,0,0,0,1,1
+286,2010,Brisbane,Minor injury,1,0,0,65,0,0,0,66,66
+287,2010,Brisbane,Minor injury,1,1,0,2,0,0,0,2,2
+288,2010,Brisbane,Property damage only,0,0,0,2037,0,0,0,0,0
+289,2010,Brisbane,Property damage only,0,0,1,48,0,0,0,0,0
+290,2010,Brisbane,Property damage only,0,1,0,199,0,0,0,0,0
+291,2010,Brisbane,Property damage only,0,1,1,1,0,0,0,0,0
+292,2010,Brisbane,Property damage only,1,0,0,18,0,0,0,0,0
+293,2011,Brisbane,Fatal,0,0,0,17,19,16,2,4,41
+294,2011,Brisbane,Fatal,0,0,1,2,2,0,0,0,2
+295,2011,Brisbane,Fatal,0,1,0,4,4,2,0,0,6
+296,2011,Brisbane,Fatal,1,0,0,7,7,0,1,0,8
+297,2011,Brisbane,Hospitalisation,0,0,0,1105,0,1313,164,105,1582
+298,2011,Brisbane,Hospitalisation,0,0,1,34,0,37,6,5,48
+299,2011,Brisbane,Hospitalisation,0,1,0,90,0,99,16,6,121
+300,2011,Brisbane,Hospitalisation,0,1,1,1,0,1,2,13,16
+301,2011,Brisbane,Hospitalisation,1,0,0,249,0,262,5,8,275
+302,2011,Brisbane,Hospitalisation,1,1,0,6,0,6,1,0,7
+303,2011,Brisbane,Medical treatment,0,0,0,1537,0,0,1827,158,1985
+304,2011,Brisbane,Medical treatment,0,0,1,53,0,0,70,7,77
+305,2011,Brisbane,Medical treatment,0,1,0,127,0,0,152,13,165
+306,2011,Brisbane,Medical treatment,0,1,1,3,0,0,6,0,6
+307,2011,Brisbane,Medical treatment,1,0,0,149,0,0,154,9,163
+308,2011,Brisbane,Medical treatment,1,0,1,1,0,0,1,0,1
+309,2011,Brisbane,Medical treatment,1,1,0,3,0,0,5,0,5
+310,2011,Brisbane,Minor injury,0,0,0,621,0,0,0,746,746
+311,2011,Brisbane,Minor injury,0,0,1,25,0,0,0,28,28
+312,2011,Brisbane,Minor injury,0,1,0,50,0,0,0,56,56
+313,2011,Brisbane,Minor injury,1,0,0,49,0,0,0,51,51
+314,2011,Brisbane,Minor injury,1,0,1,1,0,0,0,1,1
+315,2011,Brisbane,Minor injury,1,1,0,5,0,0,0,5,5
+316,2012,Brisbane,Fatal,0,0,0,9,9,4,0,0,13
+317,2012,Brisbane,Fatal,0,0,1,2,2,2,7,3,14
+318,2012,Brisbane,Fatal,0,1,0,5,5,4,1,1,11
+319,2012,Brisbane,Fatal,1,0,0,9,9,0,4,1,14
+320,2012,Brisbane,Fatal,1,1,0,1,1,0,0,0,1
+321,2012,Brisbane,Hospitalisation,0,0,0,1138,0,1352,143,130,1625
+322,2012,Brisbane,Hospitalisation,0,0,1,31,0,40,1,3,44
+323,2012,Brisbane,Hospitalisation,0,1,0,76,0,82,4,11,97
+324,2012,Brisbane,Hospitalisation,1,0,0,267,0,284,7,8,299
+325,2012,Brisbane,Hospitalisation,1,0,1,1,0,1,0,0,1
+326,2012,Brisbane,Hospitalisation,1,1,0,7,0,7,0,0,7
+327,2012,Brisbane,Medical treatment,0,0,0,1611,0,0,1898,151,2049
+328,2012,Brisbane,Medical treatment,0,0,1,57,0,0,69,5,74
+329,2012,Brisbane,Medical treatment,0,1,0,119,0,0,139,8,147
+330,2012,Brisbane,Medical treatment,0,1,1,2,0,0,2,1,3
+331,2012,Brisbane,Medical treatment,1,0,0,133,0,0,140,5,145
+332,2012,Brisbane,Medical treatment,1,0,1,1,0,0,1,0,1
+333,2012,Brisbane,Medical treatment,1,1,0,7,0,0,7,0,7
+334,2012,Brisbane,Minor injury,0,0,0,566,0,0,0,682,682
+335,2012,Brisbane,Minor injury,0,0,1,17,0,0,0,20,20
+336,2012,Brisbane,Minor injury,0,1,0,32,0,0,0,34,34
+337,2012,Brisbane,Minor injury,1,0,0,39,0,0,0,43,43
+338,2013,Brisbane,Fatal,0,0,0,20,21,12,3,0,36
+339,2013,Brisbane,Fatal,0,1,0,3,3,0,1,0,4
+340,2013,Brisbane,Fatal,1,0,0,4,4,0,0,0,4
+341,2013,Brisbane,Fatal,1,1,0,1,1,0,0,0,1
+342,2013,Brisbane,Hospitalisation,0,0,0,1217,0,1440,173,132,1745
+343,2013,Brisbane,Hospitalisation,0,0,1,31,0,39,2,4,45
+344,2013,Brisbane,Hospitalisation,0,1,0,98,0,116,16,9,141
+345,2013,Brisbane,Hospitalisation,0,1,1,1,0,1,0,0,1
+346,2013,Brisbane,Hospitalisation,1,0,0,302,0,315,10,10,335
+347,2013,Brisbane,Hospitalisation,1,0,1,3,0,3,0,0,3
+348,2013,Brisbane,Hospitalisation,1,1,0,10,0,10,0,0,10
+349,2013,Brisbane,Medical treatment,0,0,0,1623,0,0,1959,152,2111
+350,2013,Brisbane,Medical treatment,0,0,1,43,0,0,50,4,54
+351,2013,Brisbane,Medical treatment,0,1,0,132,0,0,151,6,157
+352,2013,Brisbane,Medical treatment,0,1,1,2,0,0,2,1,3
+353,2013,Brisbane,Medical treatment,1,0,0,158,0,0,168,1,169
+354,2013,Brisbane,Medical treatment,1,0,1,3,0,0,3,0,3
+355,2013,Brisbane,Medical treatment,1,1,0,4,0,0,4,0,4
+356,2013,Brisbane,Minor injury,0,0,0,418,0,0,0,491,491
+357,2013,Brisbane,Minor injury,0,0,1,15,0,0,0,18,18
+358,2013,Brisbane,Minor injury,0,1,0,20,0,0,0,21,21
+359,2013,Brisbane,Minor injury,0,1,1,1,0,0,0,1,1
+360,2013,Brisbane,Minor injury,1,0,0,34,0,0,0,35,35
+361,2013,Brisbane,Minor injury,1,0,1,2,0,0,0,2,2
+362,2013,Brisbane,Minor injury,1,1,0,1,0,0,0,1,1
+363,2014,Brisbane,Fatal,0,0,0,14,15,3,2,1,21
+364,2014,Brisbane,Fatal,0,1,0,5,6,1,1,0,8
+365,2014,Brisbane,Fatal,1,0,0,6,6,0,0,1,7
+366,2014,Brisbane,Hospitalisation,0,0,0,1099,0,1294,125,101,1520
+367,2014,Brisbane,Hospitalisation,0,0,1,26,0,32,3,2,37
+368,2014,Brisbane,Hospitalisation,0,1,0,92,0,105,5,6,116
+369,2014,Brisbane,Hospitalisation,1,0,0,266,0,279,2,6,287
+370,2014,Brisbane,Hospitalisation,1,0,1,1,0,1,0,0,1
+371,2014,Brisbane,Hospitalisation,1,1,0,7,0,7,1,0,8
+372,2014,Brisbane,Medical treatment,0,0,0,1670,0,0,1986,132,2118
+373,2014,Brisbane,Medical treatment,0,0,1,37,0,0,53,2,55
+374,2014,Brisbane,Medical treatment,0,1,0,115,0,0,127,4,131
+375,2014,Brisbane,Medical treatment,0,1,1,1,0,0,3,0,3
+376,2014,Brisbane,Medical treatment,1,0,0,177,0,0,182,5,187
+377,2014,Brisbane,Medical treatment,1,0,1,1,0,0,1,0,1
+378,2014,Brisbane,Medical treatment,1,1,0,6,0,0,6,0,6
+379,2014,Brisbane,Minor injury,0,0,0,439,0,0,0,507,507
+380,2014,Brisbane,Minor injury,0,0,1,5,0,0,0,6,6
+381,2014,Brisbane,Minor injury,0,1,0,21,0,0,0,32,32
+382,2014,Brisbane,Minor injury,0,1,1,1,0,0,0,1,1
+383,2014,Brisbane,Minor injury,1,0,0,39,0,0,0,41,41
+384,2014,Brisbane,Minor injury,1,1,0,3,0,0,0,3,3
+385,2015,Brisbane,Fatal,0,0,0,18,18,3,2,1,24
+386,2015,Brisbane,Fatal,0,1,0,3,4,1,0,1,6
+387,2015,Brisbane,Fatal,1,0,0,9,9,0,0,1,10
+388,2015,Brisbane,Hospitalisation,0,0,0,971,0,1170,129,72,1371
+389,2015,Brisbane,Hospitalisation,0,0,1,27,0,33,6,6,45
+390,2015,Brisbane,Hospitalisation,0,1,0,84,0,90,13,5,108
+391,2015,Brisbane,Hospitalisation,1,0,0,304,0,315,10,7,332
+392,2015,Brisbane,Hospitalisation,1,0,1,3,0,3,0,0,3
+393,2015,Brisbane,Hospitalisation,1,1,0,5,0,7,0,1,8
+394,2015,Brisbane,Medical treatment,0,0,0,1775,0,0,2135,136,2271
+395,2015,Brisbane,Medical treatment,0,0,1,57,0,0,64,2,66
+396,2015,Brisbane,Medical treatment,0,1,0,122,0,0,140,12,152
+397,2015,Brisbane,Medical treatment,1,0,0,188,0,0,193,0,193
+398,2015,Brisbane,Medical treatment,1,0,1,2,0,0,2,0,2
+399,2015,Brisbane,Medical treatment,1,1,0,5,0,0,5,0,5
+400,2015,Brisbane,Minor injury,0,0,0,298,0,0,0,361,361
+401,2015,Brisbane,Minor injury,0,0,1,8,0,0,0,9,9
+402,2015,Brisbane,Minor injury,0,1,0,34,0,0,0,35,35
+403,2015,Brisbane,Minor injury,1,0,0,24,0,0,0,24,24
+404,2015,Brisbane,Minor injury,1,1,0,1,0,0,0,1,1
+405,2016,Brisbane,Fatal,0,0,0,19,19,3,1,1,24
+406,2016,Brisbane,Fatal,0,1,0,4,4,0,0,1,5
+407,2016,Brisbane,Fatal,1,0,0,15,15,1,3,1,20
+408,2016,Brisbane,Fatal,1,1,0,1,1,0,0,0,1
+409,2016,Brisbane,Hospitalisation,0,0,0,1018,0,1203,148,90,1441
+410,2016,Brisbane,Hospitalisation,0,0,1,22,0,24,4,1,29
+411,2016,Brisbane,Hospitalisation,0,1,0,77,0,91,16,4,111
+412,2016,Brisbane,Hospitalisation,0,1,1,1,0,1,0,0,1
+413,2016,Brisbane,Hospitalisation,1,0,0,317,0,323,11,7,341
+414,2016,Brisbane,Hospitalisation,1,0,1,6,0,6,1,0,7
+415,2016,Brisbane,Hospitalisation,1,1,0,7,0,7,1,0,8
+416,2016,Brisbane,Medical treatment,0,0,0,1782,0,0,2118,134,2252
+417,2016,Brisbane,Medical treatment,0,0,1,32,0,0,37,6,43
+418,2016,Brisbane,Medical treatment,0,1,0,138,0,0,158,6,164
+419,2016,Brisbane,Medical treatment,0,1,1,4,0,0,5,0,5
+420,2016,Brisbane,Medical treatment,1,0,0,185,0,0,193,4,197
+421,2016,Brisbane,Medical treatment,1,0,1,2,0,0,2,0,2
+422,2016,Brisbane,Medical treatment,1,1,0,6,0,0,8,0,8
+423,2016,Brisbane,Minor injury,0,0,0,388,0,0,0,454,454
+424,2016,Brisbane,Minor injury,0,0,1,9,0,0,0,10,10
+425,2016,Brisbane,Minor injury,0,1,0,21,0,0,0,26,26
+426,2016,Brisbane,Minor injury,1,0,0,40,0,0,0,42,42
+427,2016,Brisbane,Minor injury,1,1,0,2,0,0,0,2,2
+428,2017,Brisbane,Fatal,0,0,0,21,22,11,1,1,35
+429,2017,Brisbane,Fatal,0,0,1,3,3,0,0,0,3
+430,2017,Brisbane,Fatal,0,1,0,2,2,0,0,0,2
+431,2017,Brisbane,Fatal,0,1,1,1,1,0,0,0,1
+432,2017,Brisbane,Fatal,1,0,0,8,8,0,2,0,10
+433,2017,Brisbane,Hospitalisation,0,0,0,1032,0,1218,114,101,1433
+434,2017,Brisbane,Hospitalisation,0,0,1,25,0,28,4,5,37
+435,2017,Brisbane,Hospitalisation,0,1,0,71,0,84,8,14,106
+436,2017,Brisbane,Hospitalisation,1,0,0,289,0,298,11,6,315
+437,2017,Brisbane,Hospitalisation,1,0,1,3,0,3,0,0,3
+438,2017,Brisbane,Hospitalisation,1,1,0,11,0,11,0,0,11
+439,2017,Brisbane,Medical treatment,0,0,0,1814,0,0,2098,172,2270
+440,2017,Brisbane,Medical treatment,0,0,1,46,0,0,49,4,53
+441,2017,Brisbane,Medical treatment,0,1,0,131,0,0,146,9,155
+442,2017,Brisbane,Medical treatment,0,1,1,3,0,0,3,0,3
+443,2017,Brisbane,Medical treatment,1,0,0,160,0,0,164,2,166
+444,2017,Brisbane,Medical treatment,1,1,0,7,0,0,7,1,8
+445,2017,Brisbane,Minor injury,0,0,0,542,0,0,0,641,641
+446,2017,Brisbane,Minor injury,0,0,1,13,0,0,0,14,14
+447,2017,Brisbane,Minor injury,0,1,0,40,0,0,0,42,42
+448,2017,Brisbane,Minor injury,1,0,0,49,0,0,0,54,54
+449,2017,Brisbane,Minor injury,1,1,0,1,0,0,0,1,1
+450,2018,Brisbane,Fatal,0,0,0,21,22,17,7,0,46
+451,2018,Brisbane,Fatal,0,0,1,1,1,0,0,0,1
+452,2018,Brisbane,Fatal,0,1,0,1,1,0,0,0,1
+453,2018,Brisbane,Fatal,1,0,0,5,5,3,0,0,8
+454,2018,Brisbane,Fatal,1,1,0,1,1,0,0,0,1
+455,2018,Brisbane,Hospitalisation,0,0,0,1015,0,1231,108,103,1442
+456,2018,Brisbane,Hospitalisation,0,0,1,23,0,33,6,7,46
+457,2018,Brisbane,Hospitalisation,0,1,0,84,0,98,6,7,111
+458,2018,Brisbane,Hospitalisation,0,1,1,1,0,3,0,1,4
+459,2018,Brisbane,Hospitalisation,1,0,0,295,0,308,7,7,322
+460,2018,Brisbane,Hospitalisation,1,0,1,4,0,4,0,0,4
+461,2018,Brisbane,Hospitalisation,1,1,0,11,0,11,0,1,12
+462,2018,Brisbane,Medical treatment,0,0,0,1732,0,0,1998,189,2187
+463,2018,Brisbane,Medical treatment,0,0,1,41,0,0,44,2,46
+464,2018,Brisbane,Medical treatment,0,1,0,142,0,0,162,14,176
+465,2018,Brisbane,Medical treatment,0,1,1,3,0,0,3,0,3
+466,2018,Brisbane,Medical treatment,1,0,0,162,0,0,173,3,176
+467,2018,Brisbane,Medical treatment,1,0,1,3,0,0,3,0,3
+468,2018,Brisbane,Medical treatment,1,1,0,4,0,0,4,0,4
+469,2018,Brisbane,Minor injury,0,0,0,554,0,0,0,643,643
+470,2018,Brisbane,Minor injury,0,0,1,12,0,0,0,17,17
+471,2018,Brisbane,Minor injury,0,1,0,47,0,0,0,50,50
+472,2018,Brisbane,Minor injury,1,0,0,45,0,0,0,46,46
+473,2018,Brisbane,Minor injury,1,1,0,1,0,0,0,1,1
