@@ -168,7 +168,7 @@ app.layout = html.Div(
                                                     df_locations['Crash_Year'].min(),
                                                     df_locations['Crash_Year'].max(),
                                                 ]},
-                                                value = [df_locations['Crash_Year'].min(), df_locations['Crash_Year'].max()],
+                                                value = [2013, 2018],
                                                 className = 'dcc_control',
                                             ),
 
