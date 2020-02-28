@@ -168,7 +168,7 @@ app.layout = html.Div(
                                                     df_locations['Crash_Year'].min(),
                                                     df_locations['Crash_Year'].max(),
                                                 ]},
-                                                value = [2013, 2018],
+                                                value = [2001, 2018],
                                                 className = 'dcc_control',
                                             ),
 
@@ -241,20 +241,7 @@ app.layout = html.Div(
                 className="row flex-display",
             ),
         ),
-        html.Div(id = 'df_streets_data', style = { 'display' : 'none' }),
-        dcc.Loading(
-            html.Div(
-                [
-                    html.Div([
-                        dcc.Graph(id = 'sunburst')
-                    ],className="six columns"),
-
-                    html.Div([
-                        dcc.Loading(dcc.Graph(id = 'streets_bar'))
-                    ],className="six columns")
-                ], className="pretty_container flex-display"
-            )
-        ),
+        
         dcc.Loading(
             html.Div(
                 [
@@ -436,6 +423,27 @@ app.layout = html.Div(
     id = 'mainContainer',
     style = {"display": "flex", "flex-direction": "column"},
 )
+
+
+#Sunburst Html code
+
+'''
+        html.Div(id = 'df_streets_data', style = { 'display' : 'none' }),
+        dcc.Loading(
+            html.Div(
+                [
+                    html.Div([
+                        dcc.Graph(id = 'sunburst')
+                    ],className="six columns"),
+
+                    html.Div([
+                        dcc.Loading(dcc.Graph(id = 'streets_bar'))
+                    ],className="six columns")
+                ], className="pretty_container flex-display"
+            )
+        ),
+        '''
+
 
 #Helper functions
 
@@ -857,7 +865,7 @@ def update_donut(sev, range_year):
     return fig_donut
 
 
-
+'''
 #Build dataframe fo Sunburst Chart
 def build_hierarchical_dataframe(df, levels, value_column):
 
@@ -1167,7 +1175,7 @@ def update_streets(hoverData, json_df):
                     height = 600,
                     template = draft_template)
             }
-
+'''
 @app.callback(
     Output('map', 'figure'),
     [Input('select_region2', 'value'),
