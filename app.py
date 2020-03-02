@@ -78,19 +78,8 @@ demo_labels = ['Involving Young Driver (16-24)',
 
 #Create Controls
 
-month_options = [{'label' : month, 'value' : month} for month in df_locations.Crash_Month.unique()]
-
 
 #Helper Functions
-
-
-
-styles = {
-    'pre': {
-        'border': 'thin lightgrey solid',
-        'overflowX': 'scroll'
-    }
-}
 
 
 app.layout = html.Div(
