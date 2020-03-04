@@ -6,7 +6,6 @@ from dash.exceptions import PreventUpdate
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 
-import json
 import pandas as pd
 import numpy as np
 
