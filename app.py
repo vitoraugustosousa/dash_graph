@@ -837,7 +837,7 @@ def update_donut(sev, range_year):
         dict(text='<b>{}%</b><br><i>{}<br>incidents'.format(donut_value(df_donut, 'Multi-Vehicle', 'percentage'), donut_value(df_donut, 'Multi-Vehicle', 'Total')), x=0.08, y=0.5, font_size=12, showarrow=False),
         dict(text='<b>{}%</b><br><i>{}<br>incidents'.format(donut_value(df_donut, 'Single Vehicle', 'percentage'), donut_value(df_donut, 'Single Vehicle', 'Total')), x=0.37, y=0.5, font_size=12, showarrow=False),
         dict(text='<b>{}%</b><br><i>{}<br>incidents'.format(donut_value(df_donut, 'Hit pedestrian', 'percentage'), donut_value(df_donut, 'Hit pedestrian', 'Total')), x=0.63, y=0.5, font_size=12, showarrow=False),
-        dict(text='<b>{}%</b><br><i>{}<br>incidents'.format(donut_value(df_donut, 'Other', 'percentage'), donut_value(df_donut, 'Other', 'Total')), x=0.91, y=0.5, font_size=12, showarrow=False)
+        dict(text='<b>{}%</b><br><i>{}<br>incidents'.format(donut_value(df_donut, 'Other', 'percentage'), donut_value(df_donut, 'Other', 'Total')), x=0.94, y=0.5, font_size=12, showarrow=False)
     )
 
     fig_donut.update_layout(
