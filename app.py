@@ -12,7 +12,6 @@ import pandas as pd
 import numpy as np
 
 
-ext_style = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__) #external_stylesheets = ext_style)
 
@@ -34,13 +33,6 @@ df_casualties = pd.read_csv('casualties_filtered.csv')
 
 #Create helper lists and columns
 
-df_locations['text'] = df_locations.apply(lambda x : '<b>Crash Severity:</b> <i>{}</i><br><b>Crash Year:</b> <i>{}</i><br><b>Crash Month:</b> <i>{}</i><br><b>Crash Day of Week:</b> <i>{}</i><br><b>Crash Hour:</b><i>{}</i><br><b>Crash Suburb:</b> <i>{}</i><br><b>Crash Street:</b> <i>{}</i><br><b>Crash Nature:</b> <i>{}</i><br><b>Surface Condition:</b> <i>{}</i><br><b>Atmospheric Condition:</b> <i>{}</i><br><b>Lighting Condition:</b> <i>{}</i><br><b>Description:</b> <i>{}</i><br>'.format(x['Crash_Severity'], x['Crash_Year'], 
-                                        x['Crash_Month'], x['Crash_Day_Of_Week'], x['Crash_Hour'], x['Loc_ABS_Statistical_Area_2'], x['Crash_Street'], x['Crash_Nature'], x['Crash_Road_Surface_Condition'], 
-                                        x['Crash_Atmospheric_Condition'], x['Crash_Lighting_Condition'], x['Crash_DCA_Description']), axis = 1)
-
-
-days_of_week = df_locations.Crash_Day_Of_Week.unique()
-months = df_locations.Crash_Month.unique()
 regions2 = sorted(df_locations.Loc_ABS_Statistical_Area_3.unique())
 hours = sorted(df_locations.Crash_Hour.unique())
 severity = sorted(df_locations.Crash_Severity.unique())
@@ -158,7 +150,7 @@ app.layout = html.Div(
                                                     df_locations['Crash_Year'].min(),
                                                     df_locations['Crash_Year'].max(),
                                                 ]},
-                                                value = [2010, 2018],
+                                                value = [2018, 2018],
                                                 className = 'dcc_control',
                                             ),
 
@@ -1176,6 +1168,11 @@ def update_streets(hoverData, json_df):
 def update_map(regions, hour, sev, nat, range_year):
 
     dff = filter_dataframe(df_locations, range_year)
+
+    dff['text'] = dff.apply(lambda x : '<b>Crash Severity:</b> <i>{}</i><br><b>Crash Year:</b> <i>{}</i><br><b>Crash Month:</b> <i>{}</i><br><b>Crash Day of Week:</b> <i>{}</i><br><b>Crash Hour:</b><i>{}</i><br><b>Crash Suburb:</b> <i>{}</i><br><b>Crash Street:</b> <i>{}</i><br><b>Crash Nature:</b> <i>{}</i><br><b>Surface Condition:</b> <i>{}</i><br><b>Atmospheric Condition:</b> <i>{}</i><br><b>Lighting Condition:</b> <i>{}</i><br><b>Description:</b> <i>{}</i><br>'.format(x['Crash_Severity'], x['Crash_Year'], 
+                                        x['Crash_Month'], x['Crash_Day_Of_Week'], x['Crash_Hour'], x['Loc_ABS_Statistical_Area_2'], x['Crash_Street'], x['Crash_Nature'], x['Crash_Road_Surface_Condition'], 
+                                        x['Crash_Atmospheric_Condition'], x['Crash_Lighting_Condition'], x['Crash_DCA_Description']), axis = 1)
+
 
     if len(regions) >= 1:
         regions_list = regions
