@@ -223,8 +223,25 @@ app.layout = html.Div(
                 className="row flex-display",
             ),
         ),
-        
+
+
+        html.Div(id = 'df_streets_data', style = { 'display' : 'none' }),
         dcc.Loading(
+            html.Div(
+                [
+                    html.Div([
+                        dcc.Graph(id = 'sunburst')
+                    ],className="six columns"),
+
+                    html.Div([
+                        dcc.Loading(dcc.Graph(id = 'streets_bar'))
+                    ],className="six columns")
+                ], className="pretty_container flex-display"
+            )
+        ),
+
+        
+        #dcc.Loading(
             html.Div(
                 [
                     dcc.Graph(
@@ -278,8 +295,8 @@ app.layout = html.Div(
                             )
                     ], className="three columns")
                 ], className = 'pretty_container flex-display'
-            )
-        ),
+            ),
+        #),
         dcc.Loading(
             html.Div(
                 [
@@ -847,7 +864,7 @@ def update_donut(sev, range_year):
     return fig_donut
 
 
-'''
+
 #Build dataframe fo Sunburst Chart
 def build_hierarchical_dataframe(df, levels, value_column):
 
@@ -1157,7 +1174,7 @@ def update_streets(hoverData, json_df):
                     height = 600,
                     template = draft_template)
             }
-'''
+
 @app.callback(
     Output('map', 'figure'),
     [Input('select_region2', 'value'),
