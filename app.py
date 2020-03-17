@@ -877,7 +877,7 @@ def build_hierarchical_dataframe(df, levels, value_column):
     df_all_trees = pd.DataFrame(columns=['id', 'parent', 'value'])
     for i, level in enumerate(levels):
         df_tree = pd.DataFrame(columns=['id', 'parent', 'value'])
-        dfg = df.groupby(levels[i:]).sum(numerical_only=True)
+        dfg = df.groupby(levels[i:]).sum()
         dfg = dfg.reset_index()
         df_tree['id'] = dfg[level].copy()
         if i < len(levels) - 1:
@@ -914,7 +914,7 @@ def update_sunburst(range_year):
     dff.reset_index(inplace = True)
 
     cols = ['Loc_ABS_Statistical_Area_4', 'Loc_ABS_Statistical_Area_3', 'Loc_ABS_Statistical_Area_2', 'Crash_Street']
-    top5_reg1 = list(dff.groupby(cols[0]).sum(numerical_only = True).nlargest(5, 'Total').index)
+    top5_reg1 = list(dff.groupby(cols[0]).sum().nlargest(5, 'Total').index)
     dff.loc[~dff[cols[0]].isin(top5_reg1), cols[0]] = 'Others'
     ranks = [5, 10, 20]
 
@@ -932,7 +932,7 @@ def update_sunburst(range_year):
                     dff.loc[dff[cols[k]] == name, cols[k]] = name + '_'
 
         for reg in dff[col].unique():  
-            top5 = list(dff.loc[dff[col] == reg].groupby(cols[k]).sum(numerical_only = True).nlargest(ranks[r], 'Total').index)
+            top5 = list(dff.loc[dff[col] == reg].groupby(cols[k]).sum().nlargest(ranks[r], 'Total').index)
             dff.loc[(dff[col] == reg) & ~(dff[cols[k]].isin(top5)), cols[k]] = 'Others_' + str(reg)
 
     levels = ['Loc_ABS_Statistical_Area_2', 'Loc_ABS_Statistical_Area_3', 'Loc_ABS_Statistical_Area_4'] # levels used for the hierarchical chart
