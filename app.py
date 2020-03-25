@@ -473,9 +473,6 @@ def update_year(year_values):
     Input('df_locations_filtered', 'children')])
 def update_cards(range_year, json_df):
 
-    if json_df is None:
-        raise PreventUpdate
-
     dff = pd.read_json(json_df, orient = 'split')
 
     acidents = len(dff)
@@ -495,9 +492,6 @@ def update_cards(range_year, json_df):
     [Input('range_year', 'value'),
     Input('df_locations_filtered', 'children')])
 def update_area_chart(range_year, json_df):
-
-    if json_df is None:
-        raise PreventUpdate
 
     dff = pd.read_json(json_df, orient = 'split')
     
@@ -595,9 +589,6 @@ def update_area_chart(range_year, json_df):
     Input('df_locations_filtered', 'children')])
 def update_joyplot(range_year, json_df):
 
-    if json_df is None:
-        raise PreventUpdate
-
     dff = pd.read_json(json_df, orient = 'split') 
 
     df_bubble = pd.DataFrame(dff.groupby(['Crash_Hour', 'Crash_Day_Of_Week']).Crash_Severity.value_counts())
@@ -693,9 +684,6 @@ def update_joyplot(range_year, json_df):
     Input('df_locations_filtered', 'children')])
 def update_nature(sev, range_year, json_df):
 
-    if json_df is None:
-        raise PreventUpdate
-
     dff = pd.read_json(json_df, orient = 'split')
 
     if sev != 'all':
@@ -785,9 +773,6 @@ def update_nature(sev, range_year, json_df):
     Input('range_year', 'value'),
     Input('df_locations_filtered', 'children')])
 def update_donut(sev, range_year, json_df):
-
-    if json_df is None:
-        raise PreventUpdate
 
     dff = pd.read_json(json_df, orient = 'split')
 
@@ -1215,9 +1200,6 @@ def update_streets(hoverData, json_df):
     Input('df_locations_filtered', 'children')])
 def update_map(regions, hour, sev, nat, range_year, json_df):
 
-    if json_df is None:
-        raise PreventUpdate
-
     dff = pd.read_json(json_df, orient = 'split')
 
     dff['text'] = dff.apply(lambda x : '<b>Crash Severity:</b> <i>{}</i><br><b>Crash Year:</b> <i>{}</i><br><b>Crash Month:</b> <i>{}</i><br><b>Crash Day of Week:</b> <i>{}</i><br><b>Crash Hour:</b><i>{}</i><br><b>Crash Suburb:</b> <i>{}</i><br><b>Crash Street:</b> <i>{}</i><br><b>Crash Nature:</b> <i>{}</i><br><b>Surface Condition:</b> <i>{}</i><br><b>Atmospheric Condition:</b> <i>{}</i><br><b>Lighting Condition:</b> <i>{}</i><br><b>Description:</b> <i>{}</i><br>'.format(x['Crash_Severity'], x['Crash_Year'], 
@@ -1302,9 +1284,6 @@ def update_map(regions, hour, sev, nat, range_year, json_df):
     Input('range_year', 'value'),
     Input('df_locations_filtered', 'children')])
 def update_conditions_subplot(sev, range_year, json_df):
-
-    if json_df is None:
-        raise PreventUpdate
 
     dff = pd.read_json(json_df, orient = 'split')
 
