@@ -224,7 +224,7 @@ app.layout = html.Div(
             ),
         ),
 
-        html.Div(id = 'df_locations_filtered', style = { 'display' : 'none' }),
+
         html.Div(id = 'df_streets_data', style = { 'display' : 'none' }),
         dcc.Loading(
             html.Div(
@@ -450,15 +450,6 @@ def filter_dataframe(df, range_year):
     dff = df.loc[df['Crash_Year'].between(range_year[0], range_year[1])].copy()
     return dff
 
-#Filtering Locations DataFrame
-@app.callback(
-    Output('df_locations_filtered', 'children'),
-    [Input('range_year', 'value')])
-def update_location(range_year):
-
-    dff = df_locations.loc[df_locations['Crash_Year'].between(range_year[0], range_year[1])]
-    return dff.to_json(date_format = 'iso', orient = 'split')
-
 @app.callback(
     Output('range_year_label', 'children'),
     [Input('range_year', 'value')])
@@ -469,11 +460,10 @@ def update_year(year_values):
     [Output('num_acidents', 'children'),
     Output('num_fatal', 'children'),
     Output('top_region', 'children')],
-    [Input('range_year', 'value'),
-    Input('df_locations_filtered', 'children')])
-def update_cards(range_year, json_df):
+    [Input('range_year', 'value')])
+def update_cards(range_year):
 
-    dff = pd.read_json(json_df, orient = 'split')
+    dff = filter_dataframe(df_locations, range_year)
 
     acidents = len(dff)
 
@@ -489,11 +479,10 @@ def update_cards(range_year, json_df):
 
 @app.callback(
     Output('area_chart', 'figure'),
-    [Input('range_year', 'value'),
-    Input('df_locations_filtered', 'children')])
-def update_area_chart(range_year, json_df):
+    [Input('range_year', 'value')])
+def update_area_chart(range_year):
 
-    dff = pd.read_json(json_df, orient = 'split')
+    dff = filter_dataframe(df_locations, range_year)
     
     df_area = pd.DataFrame(dff.groupby(['Crash_Year', 'Crash_Month']).Crash_Severity.value_counts())
     df_area.rename(columns = {'Crash_Severity' : 'Total'}, inplace = True)
@@ -585,11 +574,10 @@ def update_area_chart(range_year, json_df):
 
 @app.callback(
     Output('joyplot', 'figure'),
-    [Input('range_year', 'value'),
-    Input('df_locations_filtered', 'children')])
-def update_joyplot(range_year, json_df):
+    [Input('range_year', 'value')])
+def update_joyplot(range_year):
 
-    dff = pd.read_json(json_df, orient = 'split') 
+    dff = filter_dataframe(df_locations, range_year) 
 
     df_bubble = pd.DataFrame(dff.groupby(['Crash_Hour', 'Crash_Day_Of_Week']).Crash_Severity.value_counts())
     df_bubble.rename(columns = {'Crash_Severity' : 'Total'}, inplace = True)
@@ -680,11 +668,10 @@ def update_joyplot(range_year, json_df):
 @app.callback(
     Output('nature_bars', 'figure'),
     [Input('severity_selector', 'value'),
-    Input('range_year', 'value'),
-    Input('df_locations_filtered', 'children')])
-def update_nature(sev, range_year, json_df):
+    Input('range_year', 'value')])
+def update_nature(sev, range_year):
 
-    dff = pd.read_json(json_df, orient = 'split')
+    dff = filter_dataframe(df_locations, range_year)
 
     if sev != 'all':
         dff = dff.loc[dff['Crash_Severity'] == sev]
@@ -770,11 +757,10 @@ def update_nature(sev, range_year, json_df):
 @app.callback(
     Output('donut_subplots', 'figure'),
     [Input('severity_selector', 'value'),
-    Input('range_year', 'value'),
-    Input('df_locations_filtered', 'children')])
-def update_donut(sev, range_year, json_df):
+    Input('range_year', 'value')])
+def update_donut(sev, range_year):
 
-    dff = pd.read_json(json_df, orient = 'split')
+    dff = filter_dataframe(df_locations, range_year)
 
     if sev != 'all':
         dff = dff.loc[dff['Crash_Severity'] == sev].copy()
@@ -916,9 +902,8 @@ def build_hierarchical_dataframe(df, levels, value_column):
 @app.callback(
     [Output('sunburst', 'figure'),
     Output('df_streets_data', 'children')],
-    [Input('range_year', 'value'),
-    Input('df_locations_filtered', 'children')])
-def update_sunburst(range_year, json_df):
+    [Input('range_year', 'value')])
+def update_sunburst(range_year):
 
     df = filter_dataframe(df_locations, range_year)
     col_list = [col for col in df.columns.tolist() if col not in ['Loc_ABS_Statistical_Area_4', 'Loc_ABS_Statistical_Area_3', 'Loc_ABS_Statistical_Area_2', 'Crash_Street']]
@@ -1196,11 +1181,10 @@ def update_streets(hoverData, json_df):
     Input('select_hour', 'value'),
     Input('select_sev', 'value'),
     Input('select_nature', 'value'),
-    Input('range_year', 'value'),
-    Input('df_locations_filtered', 'children')])
-def update_map(regions, hour, sev, nat, range_year, json_df):
+    Input('range_year', 'value')])
+def update_map(regions, hour, sev, nat, range_year):
 
-    dff = pd.read_json(json_df, orient = 'split')
+    dff = filter_dataframe(df_locations, range_year)
 
     dff['text'] = dff.apply(lambda x : '<b>Crash Severity:</b> <i>{}</i><br><b>Crash Year:</b> <i>{}</i><br><b>Crash Month:</b> <i>{}</i><br><b>Crash Day of Week:</b> <i>{}</i><br><b>Crash Hour:</b><i>{}</i><br><b>Crash Suburb:</b> <i>{}</i><br><b>Crash Street:</b> <i>{}</i><br><b>Crash Nature:</b> <i>{}</i><br><b>Surface Condition:</b> <i>{}</i><br><b>Atmospheric Condition:</b> <i>{}</i><br><b>Lighting Condition:</b> <i>{}</i><br><b>Description:</b> <i>{}</i><br>'.format(x['Crash_Severity'], x['Crash_Year'], 
                                         x['Crash_Month'], x['Crash_Day_Of_Week'], x['Crash_Hour'], x['Loc_ABS_Statistical_Area_2'], x['Crash_Street'], x['Crash_Nature'], x['Crash_Road_Surface_Condition'], 
@@ -1281,11 +1265,10 @@ def update_map(regions, hour, sev, nat, range_year, json_df):
 @app.callback(
     Output('conditions_subplot', 'figure'),
     [Input('severity_selector2', 'value'),
-    Input('range_year', 'value'),
-    Input('df_locations_filtered', 'children')])
-def update_conditions_subplot(sev, range_year, json_df):
+    Input('range_year', 'value')])
+def update_conditions_subplot(sev, range_year):
 
-    dff = pd.read_json(json_df, orient = 'split')
+    dff = filter_dataframe(df_locations, range_year)
 
     if sev != 'all':
         dff = dff.loc[dff['Crash_Severity'] == sev].copy()
