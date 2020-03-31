@@ -20,15 +20,15 @@ server = app.server
 
 #Importing the DataFrames
 
-df_locations = pd.read_csv('locations_filtered.csv')
+df_locations = pd.read_csv('locations_filtered1.csv')
 
-df_vehicles_m = pd.read_csv('vehicles_filtered.csv')
+df_vehicles_m = pd.read_csv('vehicles_filtered1.csv')
 
-df_factors_m = pd.read_csv('factors_filtered.csv')
+df_factors_m = pd.read_csv('factors_filtered1.csv')
 
-df_demographics = pd.read_csv('demographics_filtered.csv')
+df_demographics = pd.read_csv('demographics_filtered1.csv')
 
-df_casualties = pd.read_csv('casualties_filtered.csv')
+df_casualties = pd.read_csv('casualties_filtered1.csv')
 
 
 #Create helper lists and columns
