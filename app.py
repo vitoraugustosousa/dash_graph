@@ -112,7 +112,7 @@ app.layout = html.Div(
         html.Div(
             [
                 html.H4('Overview'),
-                html.P('This dashboard presents information on location and characteristics of crashes ocurrend in Brisbane for all reported Road Traffic Crashes occurred from 1 January 2001 to 31 December 2018, Fatal Road Traffic Crashes to 31 December 2018, Hospitalisation, Medical Treatment and Minor Injury Crashes to 31 December 2018 and Property Damage only crashes to 31 December 2010. The main purpose is to identify and analyse the main factors and trends related to these incidents.'),
+                html.P('This dashboard presents information on location and characteristics of crashes ocurrend in Brisbane for all reported Road Traffic Crashes occurred from 2013 to 2018. The main purpose is to identify and analyse the main factors and trends related to these incidents.'),
                 html.P('All the information used (including the datasets) were retrieved from Queensland Goverment Open Data Portal > Crash Data from Queensland roads.'),
                 html.Div([html.Span('Source: ', style = {'font-style' : 'italic', 'font-size' : '12px'}), html.A('https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads', href = 'https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads', target="_blank", className = 'links')]),
                 html.Div([
