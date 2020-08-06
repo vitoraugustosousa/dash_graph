@@ -1,0 +1,1027 @@
+,Crash_Year,Crash_Police_Region,Casualty_Severity,Casualty_AgeGroup,Casualty_Gender,Casualty_RoadUserType,Casualty_Count
+469,2016,Brisbane,Medically treated,30 to 39,Male,Bicyclist,19
+470,2015,Brisbane,Minor injury,30 to 39,Male,Bicyclist,9
+471,2015,Brisbane,Hospitalised,30 to 39,Female,Driver,70
+473,2015,Brisbane,Medically treated,25 to 29,Male,Driver,115
+477,2016,Brisbane,Medically treated,17 to 24,Female,Driver,189
+482,2015,Brisbane,Hospitalised,30 to 39,Female,Pedestrian,4
+490,2016,Brisbane,Minor injury,40 to 49,Female,Passenger,7
+495,2016,Brisbane,Medically treated,40 to 49,Male,Driver,187
+502,2015,Brisbane,Medically treated,17 to 24,Male,Bicyclist,12
+507,2016,Brisbane,Medically treated,60 to 74,Male,Driver,82
+509,2015,Brisbane,Minor injury,30 to 39,Female,Driver,49
+512,2015,Brisbane,Medically treated,30 to 39,Male,Motorcyclist,40
+523,2016,Brisbane,Hospitalised,75 and over,Female,Pedestrian,4
+528,2015,Brisbane,Minor injury,25 to 29,Male,Driver,30
+551,2015,Brisbane,Minor injury,30 to 39,Male,Driver,54
+579,2018,Brisbane,Medically treated,30 to 39,Male,Motorcyclist,35
+581,2017,Brisbane,Medically treated,25 to 29,Male,Motorcyclist,30
+582,2018,Brisbane,Medically treated,17 to 24,Male,Driver,144
+585,2017,Brisbane,Medically treated,40 to 49,Female,Driver,201
+588,2017,Brisbane,Medically treated,30 to 39,Male,Passenger,17
+590,2017,Brisbane,Hospitalised,17 to 24,Male,Motorcyclist,56
+592,2016,Brisbane,Hospitalised,25 to 29,Male,Driver,54
+594,2018,Brisbane,Hospitalised,30 to 39,Female,Driver,101
+595,2018,Brisbane,Minor injury,25 to 29,Female,Passenger,28
+597,2018,Brisbane,Medically treated,30 to 39,Unknown,Motorcyclist,1
+603,2015,Brisbane,Medically treated,25 to 29,Female,Passenger,33
+617,2016,Brisbane,Medically treated,0 to 16,Female,Pedestrian,9
+623,2018,Brisbane,Medically treated,50 to 59,Female,Driver,128
+626,2017,Brisbane,Hospitalised,17 to 24,Female,Bicyclist,10
+629,2017,Brisbane,Minor injury,30 to 39,Male,Bicyclist,9
+630,2017,Brisbane,Medically treated,0 to 16,Male,Passenger,40
+634,2017,Brisbane,Medically treated,60 to 74,Male,Driver,80
+636,2017,Brisbane,Medically treated,17 to 24,Female,Passenger,67
+637,2016,Brisbane,Hospitalised,40 to 49,Female,Passenger,14
+641,2016,Brisbane,Minor injury,60 to 74,Female,Driver,26
+643,2017,Brisbane,Hospitalised,30 to 39,Male,Motorcyclist,66
+644,2017,Brisbane,Hospitalised,17 to 24,Female,Pedestrian,11
+645,2016,Brisbane,Medically treated,30 to 39,Male,Motorcyclist,39
+646,2017,Brisbane,Minor injury,40 to 49,Male,Pedestrian,2
+652,2016,Brisbane,Hospitalised,17 to 24,Male,Motorcyclist,60
+663,2016,Brisbane,Minor injury,60 to 74,Male,Driver,24
+666,2016,Brisbane,Minor injury,17 to 24,Male,Driver,47
+668,2018,Brisbane,Medically treated,75 and over,Male,Driver,17
+669,2017,Brisbane,Medically treated,0 to 16,Female,Passenger,61
+671,2018,Brisbane,Minor injury,17 to 24,Female,Passenger,29
+677,2018,Brisbane,Hospitalised,30 to 39,Male,Pedestrian,7
+678,2018,Brisbane,Hospitalised,0 to 16,Male,Bicyclist,15
+680,2018,Brisbane,Hospitalised,50 to 59,Male,Driver,56
+681,2018,Brisbane,Minor injury,50 to 59,Female,Driver,58
+684,2018,Brisbane,Hospitalised,25 to 29,Male,Driver,48
+687,2018,Brisbane,Hospitalised,30 to 39,Female,Passenger,19
+690,2018,Brisbane,Minor injury,25 to 29,Unknown,Driver,2
+692,2017,Brisbane,Hospitalised,30 to 39,Female,Passenger,17
+694,2018,Brisbane,Hospitalised,17 to 24,Male,Pedestrian,13
+932,2016,Brisbane,Medically treated,17 to 24,Male,Motorcyclist,34
+939,2015,Brisbane,Medically treated,40 to 49,Male,Motorcyclist,27
+942,2015,Brisbane,Medically treated,75 and over,Male,Bicyclist,1
+946,2016,Brisbane,Minor injury,40 to 49,Male,Motorcyclist,10
+957,2015,Brisbane,Medically treated,30 to 39,Unknown,Driver,1
+961,2015,Brisbane,Fatality,75 and over,Female,Pedestrian,1
+983,2015,Brisbane,Minor injury,60 to 74,Male,Driver,31
+985,2018,Brisbane,Minor injury,25 to 29,Male,Motorcyclist,12
+986,2018,Brisbane,Medically treated,30 to 39,Female,Passenger,55
+992,2017,Brisbane,Medically treated,50 to 59,Male,Motorcyclist,20
+995,2017,Brisbane,Minor injury,0 to 16,Male,Passenger,19
+997,2018,Brisbane,Minor injury,40 to 49,Male,Bicyclist,4
+1005,2017,Brisbane,Medically treated,40 to 49,Male,Bicyclist,22
+1013,2018,Brisbane,Hospitalised,40 to 49,Female,Driver,65
+1209,2015,Brisbane,Hospitalised,0 to 16,Male,Passenger,29
+1214,2018,Brisbane,Fatality,60 to 74,Male,Bicyclist,1
+1219,2017,Brisbane,Minor injury,25 to 29,Female,Passenger,12
+1222,2017,Brisbane,Minor injury,17 to 24,Female,Motorcyclist,3
+1228,2017,Brisbane,Hospitalised,60 to 74,Female,Passenger,10
+1229,2017,Brisbane,Hospitalised,60 to 74,Male,Motorcyclist,20
+1235,2015,Brisbane,Medically treated,30 to 39,Female,Motorcyclist,12
+1238,2018,Brisbane,Hospitalised,25 to 29,Female,Motorcyclist,7
+1356,2015,Brisbane,Hospitalised,30 to 39,Female,Bicyclist,6
+1367,2016,Brisbane,Hospitalised,40 to 49,Male,Pedestrian,8
+1388,2017,Brisbane,Hospitalised,17 to 24,Female,Motorcyclist,9
+1389,2016,Brisbane,Hospitalised,50 to 59,Female,Pedestrian,6
+1390,2017,Brisbane,Medically treated,50 to 59,Unknown,Passenger,1
+1398,2016,Brisbane,Medically treated,75 and over,Female,Passenger,6
+1509,2016,Brisbane,Minor injury,50 to 59,Male,Bicyclist,3
+1511,2016,Brisbane,Hospitalised,25 to 29,Male,Passenger,10
+1529,2017,Brisbane,Minor injury,60 to 74,Male,Pedestrian,1
+1530,2017,Brisbane,Hospitalised,Unknown,Male,Passenger,2
+1532,2017,Brisbane,Hospitalised,25 to 29,Female,Motorcyclist,7
+1534,2017,Brisbane,Minor injury,40 to 49,Female,Other,1
+1538,2018,Brisbane,Medically treated,50 to 59,Female,Pedestrian,5
+1617,2015,Brisbane,Minor injury,50 to 59,Male,Bicyclist,4
+1627,2018,Brisbane,Medically treated,50 to 59,Male,Motorcyclist,21
+1630,2018,Brisbane,Minor injury,30 to 39,Male,Pedestrian,4
+1632,2016,Brisbane,Minor injury,60 to 74,Male,Passenger,2
+1727,2016,Brisbane,Hospitalised,25 to 29,Female,Bicyclist,1
+1735,2018,Brisbane,Medically treated,17 to 24,Male,Bicyclist,14
+1791,2016,Brisbane,Minor injury,60 to 74,Female,Pedestrian,2
+1793,2015,Brisbane,Medically treated,60 to 74,Male,Bicyclist,5
+1798,2016,Brisbane,Medically treated,50 to 59,Female,Pedestrian,3
+1804,2015,Brisbane,Minor injury,Unknown,Male,Driver,1
+1813,2016,Brisbane,Hospitalised,50 to 59,Male,Pedestrian,9
+1815,2018,Brisbane,Minor injury,30 to 39,Female,Bicyclist,4
+1871,2015,Brisbane,Fatality,25 to 29,Male,Driver,2
+1888,2018,Brisbane,Minor injury,25 to 29,Male,Pedestrian,2
+1889,2018,Brisbane,Minor injury,50 to 59,Male,Passenger,5
+1942,2015,Brisbane,Minor injury,30 to 39,Male,Passenger,8
+1952,2015,Brisbane,Hospitalised,30 to 39,Female,Motorcyclist,6
+1955,2017,Brisbane,Minor injury,25 to 29,Female,Bicyclist,1
+1957,2018,Brisbane,Minor injury,30 to 39,Male,Other,1
+1960,2016,Brisbane,Minor injury,25 to 29,Male,Motorcyclist,7
+1961,2018,Brisbane,Minor injury,25 to 29,Female,Motorcyclist,2
+1962,2018,Brisbane,Hospitalised,0 to 16,Female,Driver,1
+2009,2018,Brisbane,Minor injury,30 to 39,Female,Pedestrian,1
+2012,2018,Brisbane,Hospitalised,17 to 24,Unknown,Driver,1
+2014,2017,Brisbane,Hospitalised,50 to 59,Female,Pedestrian,9
+2052,2016,Brisbane,Hospitalised,60 to 74,Male,Other,1
+2062,2017,Brisbane,Minor injury,0 to 16,Male,Pedestrian,2
+2063,2017,Brisbane,Minor injury,60 to 74,Male,Bicyclist,2
+2067,2017,Brisbane,Minor injury,50 to 59,Male,Pedestrian,1
+2096,2016,Brisbane,Medically treated,0 to 16,Female,Bicyclist,1
+2100,2015,Brisbane,Minor injury,30 to 39,Male,Motorcyclist,3
+2109,2017,Brisbane,Hospitalised,50 to 59,Male,Pedestrian,3
+2113,2018,Brisbane,Minor injury,40 to 49,Male,Passenger,9
+2145,2016,Brisbane,Medically treated,50 to 59,Female,Bicyclist,1
+2150,2017,Brisbane,Fatality,30 to 39,Male,Pedestrian,1
+2194,2016,Brisbane,Medically treated,75 and over,Male,Motorcyclist,1
+2236,2015,Brisbane,Minor injury,50 to 59,Female,Motorcyclist,1
+2242,2018,Brisbane,Medically treated,Unknown,Male,Bicyclist,1
+2275,2016,Brisbane,Minor injury,0 to 16,Male,Pedestrian,1
+2287,2017,Brisbane,Fatality,40 to 49,Female,Passenger,1
+2313,2016,Brisbane,Minor injury,Unknown,Unknown,Passenger,2
+2318,2015,Brisbane,Hospitalised,30 to 39,Male,Pedestrian,5
+2347,2016,Brisbane,Medically treated,40 to 49,Female,Other,1
+2405,2015,Brisbane,Minor injury,40 to 49,Female,Bicyclist,2
+2436,2018,Brisbane,Medically treated,75 and over,Male,Bicyclist,1
+2536,2015,Brisbane,Fatality,75 and over,Male,Pedestrian,1
+2563,2017,Brisbane,Fatality,75 and over,Female,Passenger,1
+2585,2015,Brisbane,Hospitalised,60 to 74,Female,Motorcyclist,1
+2614,2015,Brisbane,Minor injury,40 to 49,Female,Motorcyclist,1
+2663,2018,Brisbane,Minor injury,0 to 16,Female,Pedestrian,1
+2664,2015,Brisbane,Hospitalised,Unknown,Male,Motorcyclist,1
+3246,2016,Brisbane,Medically treated,60 to 74,Female,Driver,69
+3251,2016,Brisbane,Hospitalised,25 to 29,Female,Driver,44
+3265,2016,Brisbane,Minor injury,40 to 49,Male,Bicyclist,5
+3267,2016,Brisbane,Medically treated,25 to 29,Female,Bicyclist,3
+3275,2015,Brisbane,Hospitalised,30 to 39,Female,Passenger,14
+3289,2015,Brisbane,Medically treated,50 to 59,Female,Driver,150
+3292,2016,Brisbane,Hospitalised,60 to 74,Female,Driver,47
+3294,2015,Brisbane,Hospitalised,30 to 39,Male,Driver,73
+3298,2015,Brisbane,Medically treated,25 to 29,Female,Driver,116
+3329,2015,Brisbane,Hospitalised,50 to 59,Female,Passenger,14
+3339,2015,Brisbane,Hospitalised,60 to 74,Female,Passenger,21
+3344,2015,Brisbane,Hospitalised,40 to 49,Male,Driver,79
+3355,2018,Brisbane,Hospitalised,0 to 16,Male,Pedestrian,10
+3357,2018,Brisbane,Minor injury,50 to 59,Male,Driver,62
+3358,2018,Brisbane,Hospitalised,17 to 24,Female,Driver,92
+3359,2018,Brisbane,Medically treated,30 to 39,Female,Driver,204
+3361,2017,Brisbane,Hospitalised,40 to 49,Female,Driver,59
+3363,2018,Brisbane,Hospitalised,30 to 39,Male,Driver,80
+3364,2015,Brisbane,Medically treated,30 to 39,Female,Passenger,43
+3365,2017,Brisbane,Medically treated,17 to 24,Female,Pedestrian,10
+3367,2018,Brisbane,Medically treated,25 to 29,Male,Pedestrian,5
+3370,2018,Brisbane,Hospitalised,25 to 29,Female,Driver,52
+3372,2017,Brisbane,Medically treated,50 to 59,Female,Driver,110
+3373,2017,Brisbane,Medically treated,17 to 24,Male,Driver,134
+3376,2017,Brisbane,Minor injury,40 to 49,Male,Driver,61
+3380,2015,Brisbane,Minor injury,50 to 59,Female,Driver,32
+3386,2017,Brisbane,Medically treated,40 to 49,Male,Driver,173
+3388,2017,Brisbane,Medically treated,50 to 59,Male,Bicyclist,14
+3389,2017,Brisbane,Medically treated,40 to 49,Male,Motorcyclist,34
+3392,2017,Brisbane,Hospitalised,30 to 39,Male,Driver,71
+3401,2017,Brisbane,Medically treated,30 to 39,Female,Pedestrian,8
+3406,2017,Brisbane,Medically treated,60 to 74,Female,Driver,85
+3411,2017,Brisbane,Minor injury,40 to 49,Female,Passenger,14
+3419,2016,Brisbane,Minor injury,30 to 39,Female,Passenger,12
+3421,2016,Brisbane,Medically treated,17 to 24,Male,Passenger,38
+3430,2018,Brisbane,Hospitalised,50 to 59,Female,Passenger,13
+3431,2018,Brisbane,Hospitalised,Unknown,Female,Passenger,1
+3435,2018,Brisbane,Hospitalised,50 to 59,Female,Pedestrian,6
+3438,2018,Brisbane,Medically treated,60 to 74,Male,Driver,61
+3441,2018,Brisbane,Minor injury,40 to 49,Male,Pedestrian,2
+3445,2018,Brisbane,Hospitalised,17 to 24,Male,Passenger,27
+3451,2018,Brisbane,Minor injury,50 to 59,Male,Bicyclist,5
+3452,2016,Brisbane,Hospitalised,30 to 39,Female,Driver,97
+3453,2018,Brisbane,Hospitalised,25 to 29,Male,Motorcyclist,57
+3697,2015,Brisbane,Hospitalised,30 to 39,Male,Bicyclist,22
+3705,2015,Brisbane,Medically treated,60 to 74,Female,Driver,78
+3711,2015,Brisbane,Minor injury,40 to 49,Male,Motorcyclist,6
+3717,2015,Brisbane,Medically treated,50 to 59,Female,Passenger,33
+3725,2015,Brisbane,Hospitalised,75 and over,Male,Passenger,4
+3728,2015,Brisbane,Medically treated,0 to 16,Female,Driver,2
+3732,2017,Brisbane,Hospitalised,75 and over,Female,Driver,23
+3739,2017,Brisbane,Medically treated,60 to 74,Male,Bicyclist,7
+3740,2017,Brisbane,Medically treated,60 to 74,Female,Pedestrian,6
+3743,2017,Brisbane,Hospitalised,40 to 49,Female,Motorcyclist,5
+3755,2016,Brisbane,Minor injury,0 to 16,Male,Bicyclist,1
+3756,2017,Brisbane,Hospitalised,40 to 49,Female,Passenger,15
+3757,2017,Brisbane,Hospitalised,30 to 39,Male,Bicyclist,25
+3760,2017,Brisbane,Hospitalised,40 to 49,Male,Motorcyclist,39
+3772,2016,Brisbane,Medically treated,30 to 39,Unknown,Passenger,1
+3780,2018,Brisbane,Medically treated,25 to 29,Female,Motorcyclist,10
+3781,2017,Brisbane,Minor injury,0 to 16,Male,Bicyclist,7
+3786,2016,Brisbane,Medically treated,50 to 59,Male,Passenger,12
+3788,2018,Brisbane,Hospitalised,75 and over,Female,Driver,22
+3965,2016,Brisbane,Hospitalised,50 to 59,Male,Passenger,2
+3972,2015,Brisbane,Hospitalised,25 to 29,Female,Bicyclist,6
+3992,2015,Brisbane,Minor injury,40 to 49,Male,Pedestrian,1
+4005,2017,Brisbane,Hospitalised,0 to 16,Male,Pedestrian,13
+4006,2018,Brisbane,Hospitalised,40 to 49,Male,Pedestrian,7
+4015,2017,Brisbane,Minor injury,40 to 49,Female,Bicyclist,2
+4021,2017,Brisbane,Hospitalised,60 to 74,Female,Pedestrian,14
+4022,2016,Brisbane,Minor injury,25 to 29,Female,Passenger,4
+4032,2017,Brisbane,Minor injury,40 to 49,Female,Pedestrian,2
+4035,2018,Brisbane,Minor injury,40 to 49,Female,Passenger,19
+4146,2016,Brisbane,Hospitalised,60 to 74,Male,Passenger,6
+4148,2016,Brisbane,Medically treated,0 to 16,Male,Bicyclist,11
+4150,2016,Brisbane,Medically treated,17 to 24,Female,Bicyclist,7
+4155,2015,Brisbane,Medically treated,25 to 29,Male,Motorcyclist,34
+4158,2015,Brisbane,Minor injury,0 to 16,Male,Passenger,17
+4179,2017,Brisbane,Medically treated,40 to 49,Male,Pedestrian,7
+4194,2018,Brisbane,Minor injury,30 to 39,Female,Motorcyclist,1
+4199,2018,Brisbane,Medically treated,17 to 24,Male,Pedestrian,3
+4311,2016,Brisbane,Medically treated,75 and over,Male,Driver,11
+4313,2016,Brisbane,Hospitalised,60 to 74,Female,Motorcyclist,2
+4314,2016,Brisbane,Medically treated,40 to 49,Male,Pedestrian,6
+4320,2015,Brisbane,Medically treated,17 to 24,Female,Motorcyclist,1
+4324,2015,Brisbane,Fatality,17 to 24,Male,Motorcyclist,1
+4325,2015,Brisbane,Fatality,40 to 49,Male,Driver,2
+4343,2017,Brisbane,Hospitalised,25 to 29,Male,Pedestrian,6
+4352,2018,Brisbane,Fatality,60 to 74,Female,Pedestrian,2
+4423,2016,Brisbane,Hospitalised,17 to 24,Female,Bicyclist,6
+4430,2015,Brisbane,Medically treated,Unknown,Female,Passenger,3
+4443,2017,Brisbane,Hospitalised,25 to 29,Male,Passenger,9
+4447,2017,Brisbane,Minor injury,40 to 49,Male,Passenger,9
+4450,2017,Brisbane,Hospitalised,60 to 74,Male,Pedestrian,9
+4455,2018,Brisbane,Minor injury,60 to 74,Male,Motorcyclist,2
+4523,2016,Brisbane,Hospitalised,75 and over,Male,Pedestrian,4
+4526,2015,Brisbane,Hospitalised,40 to 49,Female,Motorcyclist,7
+4529,2015,Brisbane,Medically treated,50 to 59,Male,Pedestrian,6
+4530,2018,Brisbane,Hospitalised,25 to 29,Unknown,Driver,1
+4534,2017,Brisbane,Medically treated,25 to 29,Female,Bicyclist,4
+4539,2018,Brisbane,Medically treated,50 to 59,Male,Passenger,10
+4606,2015,Brisbane,Medically treated,0 to 16,Male,Pedestrian,7
+4614,2018,Brisbane,Minor injury,50 to 59,Male,Pedestrian,4
+4679,2018,Brisbane,Fatality,17 to 24,Male,Driver,3
+4681,2017,Brisbane,Minor injury,75 and over,Female,Passenger,6
+4682,2016,Brisbane,Medically treated,30 to 39,Male,Pedestrian,6
+4683,2015,Brisbane,Medically treated,0 to 16,Female,Bicyclist,1
+4743,2018,Brisbane,Medically treated,50 to 59,Female,Motorcyclist,1
+4753,2018,Brisbane,Hospitalised,75 and over,Male,Passenger,3
+4871,2018,Brisbane,Medically treated,75 and over,Female,Passenger,6
+4917,2015,Brisbane,Medically treated,40 to 49,Female,Pedestrian,3
+4924,2017,Brisbane,Hospitalised,60 to 74,Female,Bicyclist,2
+4925,2017,Brisbane,Medically treated,17 to 24,Female,Bicyclist,4
+5015,2017,Brisbane,Medically treated,0 to 16,Male,Motorcyclist,1
+5016,2016,Brisbane,Minor injury,30 to 39,Female,Bicyclist,1
+5017,2018,Brisbane,Fatality,60 to 74,Male,Passenger,1
+5059,2018,Brisbane,Fatality,50 to 59,Female,Pedestrian,2
+5133,2015,Brisbane,Minor injury,25 to 29,Female,Passenger,7
+5144,2018,Brisbane,Medically treated,75 and over,Male,Pedestrian,1
+5177,2016,Brisbane,Hospitalised,17 to 24,Unknown,Driver,1
+5180,2015,Brisbane,Hospitalised,0 to 16,Male,Other,1
+5185,2017,Brisbane,Minor injury,30 to 39,Male,Pedestrian,3
+5186,2016,Brisbane,Minor injury,50 to 59,Male,Passenger,2
+5220,2017,Brisbane,Fatality,60 to 74,Male,Pedestrian,1
+5238,2017,Brisbane,Medically treated,Unknown,Male,Passenger,1
+5241,2016,Brisbane,Hospitalised,0 to 16,Male,Motorcyclist,1
+5243,2018,Brisbane,Minor injury,75 and over,Male,Pedestrian,1
+5273,2016,Brisbane,Minor injury,50 to 59,Female,Pedestrian,1
+5302,2018,Brisbane,Hospitalised,17 to 24,Female,Bicyclist,2
+5326,2016,Brisbane,Fatality,17 to 24,Male,Pedestrian,1
+5327,2018,Brisbane,Hospitalised,25 to 29,Female,Pedestrian,5
+5328,2017,Brisbane,Medically treated,30 to 39,Unknown,Driver,1
+5329,2017,Brisbane,Medically treated,40 to 49,Unknown,Passenger,1
+5330,2017,Brisbane,Minor injury,30 to 39,Unknown,Driver,1
+5397,2016,Brisbane,Fatality,17 to 24,Male,Passenger,1
+5448,2017,Brisbane,Minor injury,Unknown,Male,Driver,1
+5482,2017,Brisbane,Minor injury,50 to 59,Male,Passenger,1
+5483,2017,Brisbane,Fatality,25 to 29,Male,Driver,1
+5527,2017,Brisbane,Fatality,40 to 49,Male,Bicyclist,1
+5559,2016,Brisbane,Fatality,25 to 29,Male,Pedestrian,1
+5560,2015,Brisbane,Medically treated,Unknown,Female,Motorcyclist,1
+6086,2015,Brisbane,Hospitalised,17 to 24,Male,Driver,102
+6093,2015,Brisbane,Hospitalised,60 to 74,Male,Pedestrian,11
+6097,2015,Brisbane,Hospitalised,50 to 59,Male,Bicyclist,17
+6101,2016,Brisbane,Minor injury,40 to 49,Male,Driver,53
+6104,2015,Brisbane,Medically treated,17 to 24,Female,Driver,206
+6106,2016,Brisbane,Hospitalised,40 to 49,Male,Driver,71
+6108,2016,Brisbane,Medically treated,Unknown,Female,Passenger,2
+6109,2015,Brisbane,Hospitalised,50 to 59,Female,Bicyclist,3
+6110,2016,Brisbane,Minor injury,50 to 59,Male,Driver,45
+6111,2016,Brisbane,Hospitalised,30 to 39,Female,Passenger,15
+6116,2016,Brisbane,Minor injury,25 to 29,Male,Driver,51
+6121,2016,Brisbane,Hospitalised,40 to 49,Male,Motorcyclist,58
+6137,2015,Brisbane,Hospitalised,40 to 49,Male,Pedestrian,7
+6140,2015,Brisbane,Hospitalised,50 to 59,Male,Other,1
+6141,2015,Brisbane,Medically treated,75 and over,Female,Driver,25
+6145,2015,Brisbane,Minor injury,17 to 24,Female,Passenger,15
+6150,2016,Brisbane,Hospitalised,25 to 29,Male,Pedestrian,6
+6157,2015,Brisbane,Minor injury,40 to 49,Male,Driver,32
+6197,2018,Brisbane,Minor injury,30 to 39,Male,Driver,113
+6198,2018,Brisbane,Medically treated,30 to 39,Male,Driver,250
+6202,2018,Brisbane,Medically treated,17 to 24,Female,Driver,171
+6207,2018,Brisbane,Medically treated,60 to 74,Female,Driver,64
+6232,2018,Brisbane,Hospitalised,60 to 74,Male,Bicyclist,14
+6239,2017,Brisbane,Hospitalised,30 to 39,Female,Motorcyclist,12
+6242,2017,Brisbane,Minor injury,75 and over,Female,Driver,5
+6243,2018,Brisbane,Medically treated,30 to 39,Male,Bicyclist,21
+6245,2017,Brisbane,Hospitalised,75 and over,Male,Driver,26
+6249,2017,Brisbane,Hospitalised,0 to 16,Female,Passenger,38
+6251,2017,Brisbane,Minor injury,17 to 24,Female,Driver,70
+6255,2017,Brisbane,Medically treated,75 and over,Female,Driver,14
+6256,2017,Brisbane,Medically treated,25 to 29,Male,Driver,130
+6267,2016,Brisbane,Medically treated,40 to 49,Male,Motorcyclist,35
+6271,2018,Brisbane,Hospitalised,17 to 24,Male,Motorcyclist,51
+6275,2018,Brisbane,Medically treated,30 to 39,Female,Motorcyclist,9
+6276,2017,Brisbane,Medically treated,30 to 39,Female,Motorcyclist,5
+6281,2018,Brisbane,Medically treated,25 to 29,Male,Bicyclist,11
+6288,2016,Brisbane,Hospitalised,30 to 39,Female,Motorcyclist,5
+6289,2017,Brisbane,Medically treated,Unknown,Unknown,Driver,1
+6538,2016,Brisbane,Medically treated,30 to 39,Female,Passenger,36
+6546,2016,Brisbane,Medically treated,60 to 74,Female,Pedestrian,5
+6552,2015,Brisbane,Hospitalised,Unknown,Female,Passenger,5
+6555,2016,Brisbane,Hospitalised,40 to 49,Female,Motorcyclist,14
+6556,2015,Brisbane,Hospitalised,50 to 59,Male,Motorcyclist,53
+6578,2015,Brisbane,Hospitalised,75 and over,Male,Driver,27
+6594,2017,Brisbane,Minor injury,0 to 16,Female,Passenger,26
+6597,2017,Brisbane,Medically treated,40 to 49,Male,Passenger,18
+6598,2017,Brisbane,Minor injury,40 to 49,Male,Motorcyclist,9
+6599,2017,Brisbane,Medically treated,75 and over,Male,Driver,13
+6606,2017,Brisbane,Medically treated,30 to 39,Male,Bicyclist,19
+6611,2017,Brisbane,Hospitalised,40 to 49,Female,Bicyclist,5
+6617,2018,Brisbane,Medically treated,50 to 59,Female,Bicyclist,3
+6619,2018,Brisbane,Medically treated,17 to 24,Female,Pedestrian,3
+6620,2018,Brisbane,Minor injury,25 to 29,Male,Passenger,12
+6776,2016,Brisbane,Minor injury,60 to 74,Female,Passenger,6
+6783,2016,Brisbane,Hospitalised,60 to 74,Male,Pedestrian,11
+6791,2016,Brisbane,Minor injury,30 to 39,Male,Bicyclist,4
+6793,2015,Brisbane,Medically treated,75 and over,Male,Driver,19
+6794,2015,Brisbane,Hospitalised,40 to 49,Female,Passenger,14
+6799,2015,Brisbane,Medically treated,30 to 39,Male,Pedestrian,8
+6813,2016,Brisbane,Hospitalised,50 to 59,Female,Passenger,17
+6815,2017,Brisbane,Hospitalised,75 and over,Female,Bicyclist,1
+6829,2017,Brisbane,Medically treated,25 to 29,Female,Motorcyclist,5
+6830,2018,Brisbane,Minor injury,0 to 16,Male,Passenger,21
+6831,2018,Brisbane,Minor injury,75 and over,Male,Driver,9
+6952,2015,Brisbane,Minor injury,50 to 59,Male,Passenger,3
+6953,2015,Brisbane,Hospitalised,25 to 29,Male,Bicyclist,9
+6964,2015,Brisbane,Minor injury,17 to 24,Female,Pedestrian,3
+6965,2016,Brisbane,Medically treated,25 to 29,Female,Pedestrian,7
+6966,2015,Brisbane,Hospitalised,17 to 24,Male,Passenger,21
+6967,2015,Brisbane,Fatality,25 to 29,Male,Motorcyclist,2
+6974,2018,Brisbane,Minor injury,0 to 16,Female,Passenger,22
+6978,2017,Brisbane,Medically treated,30 to 39,Female,Bicyclist,4
+6979,2018,Brisbane,Hospitalised,50 to 59,Female,Motorcyclist,5
+6981,2016,Brisbane,Medically treated,30 to 39,Male,Passenger,24
+6982,2017,Brisbane,Hospitalised,60 to 74,Male,Bicyclist,8
+6983,2016,Brisbane,Hospitalised,17 to 24,Female,Pedestrian,16
+6986,2015,Brisbane,Medically treated,17 to 24,Female,Pedestrian,14
+7119,2017,Brisbane,Medically treated,25 to 29,Male,Passenger,21
+7121,2017,Brisbane,Hospitalised,75 and over,Female,Pedestrian,6
+7134,2018,Brisbane,Medically treated,Unknown,Female,Passenger,5
+7217,2015,Brisbane,Minor injury,17 to 24,Male,Motorcyclist,7
+7222,2015,Brisbane,Hospitalised,75 and over,Female,Pedestrian,3
+7227,2018,Brisbane,Medically treated,75 and over,Male,Passenger,3
+7233,2018,Brisbane,Fatality,50 to 59,Female,Driver,2
+7314,2016,Brisbane,Minor injury,40 to 49,Female,Pedestrian,4
+7326,2018,Brisbane,Hospitalised,30 to 39,Female,Motorcyclist,8
+7328,2017,Brisbane,Minor injury,75 and over,Male,Driver,5
+7329,2017,Brisbane,Hospitalised,Unknown,Female,Passenger,4
+7333,2015,Brisbane,Medically treated,50 to 59,Female,Bicyclist,4
+7336,2018,Brisbane,Medically treated,0 to 16,Male,Bicyclist,10
+7402,2015,Brisbane,Medically treated,60 to 74,Female,Bicyclist,2
+7404,2016,Brisbane,Fatality,75 and over,Male,Driver,3
+7405,2015,Brisbane,Hospitalised,17 to 24,Male,Bicyclist,7
+7412,2015,Brisbane,Minor injury,75 and over,Female,Passenger,2
+7416,2018,Brisbane,Minor injury,50 to 59,Male,Motorcyclist,5
+7419,2017,Brisbane,Hospitalised,25 to 29,Female,Pedestrian,10
+7430,2017,Brisbane,Fatality,50 to 59,Female,Passenger,1
+7431,2016,Brisbane,Medically treated,40 to 49,Male,Passenger,6
+7483,2015,Brisbane,Minor injury,17 to 24,Unknown,Passenger,1
+7488,2015,Brisbane,Medically treated,40 to 49,Female,Motorcyclist,6
+7547,2016,Brisbane,Fatality,60 to 74,Male,Driver,1
+7551,2016,Brisbane,Fatality,17 to 24,Male,Driver,1
+7556,2017,Brisbane,Minor injury,50 to 59,Male,Bicyclist,7
+7557,2017,Brisbane,Medically treated,Unknown,Female,Passenger,1
+7604,2015,Brisbane,Fatality,60 to 74,Male,Driver,1
+7605,2015,Brisbane,Hospitalised,75 and over,Female,Passenger,4
+7609,2015,Brisbane,Hospitalised,25 to 29,Male,Passenger,4
+7610,2017,Brisbane,Medically treated,25 to 29,Unknown,Driver,1
+7611,2017,Brisbane,Fatality,25 to 29,Female,Pedestrian,1
+7660,2015,Brisbane,Hospitalised,30 to 39,Male,Passenger,8
+7673,2018,Brisbane,Medically treated,40 to 49,Male,Passenger,9
+7717,2015,Brisbane,Hospitalised,75 and over,Male,Pedestrian,6
+7722,2016,Brisbane,Medically treated,0 to 16,Male,Driver,1
+7772,2017,Brisbane,Fatality,40 to 49,Male,Driver,1
+7773,2018,Brisbane,Hospitalised,25 to 29,Male,Pedestrian,9
+7779,2018,Brisbane,Medically treated,60 to 74,Male,Bicyclist,2
+7857,2016,Brisbane,Medically treated,Unknown,Female,Pedestrian,1
+7862,2018,Brisbane,Hospitalised,40 to 49,Female,Pedestrian,4
+7899,2015,Brisbane,Minor injury,30 to 39,Female,Pedestrian,1
+7900,2016,Brisbane,Fatality,25 to 29,Male,Motorcyclist,1
+7903,2018,Brisbane,Medically treated,Unknown,Unknown,Passenger,2
+7905,2017,Brisbane,Minor injury,Unknown,Female,Passenger,3
+7943,2016,Brisbane,Fatality,60 to 74,Male,Pedestrian,1
+7948,2017,Brisbane,Medically treated,17 to 24,Unknown,Motorcyclist,1
+7949,2016,Brisbane,Medically treated,17 to 24,Unknown,Driver,2
+7987,2017,Brisbane,Medically treated,40 to 49,Unknown,Driver,1
+8020,2018,Brisbane,Fatality,30 to 39,Male,Motorcyclist,1
+8039,2015,Brisbane,Minor injury,30 to 39,Female,Bicyclist,1
+8046,2018,Brisbane,Fatality,30 to 39,Male,Pedestrian,1
+8068,2017,Brisbane,Hospitalised,75 and over,Male,Motorcyclist,2
+8070,2018,Brisbane,Fatality,30 to 39,Female,Pedestrian,1
+8129,2017,Brisbane,Hospitalised,75 and over,Male,Bicyclist,1
+8183,2015,Brisbane,Hospitalised,17 to 24,Female,Bicyclist,3
+8184,2018,Brisbane,Fatality,17 to 24,Female,Passenger,1
+8185,2017,Brisbane,Medically treated,25 to 29,Male,Pedestrian,2
+8186,2016,Brisbane,Medically treated,0 to 16,Male,Motorcyclist,1
+8238,2017,Brisbane,Medically treated,0 to 16,Male,Other,1
+8254,2016,Brisbane,Fatality,17 to 24,Female,Driver,1
+8260,2016,Brisbane,Hospitalised,17 to 24,Male,Other,1
+8293,2015,Brisbane,Minor injury,60 to 74,Male,Motorcyclist,1
+8326,2015,Brisbane,Hospitalised,75 and over,Male,Motorcyclist,1
+8826,2016,Brisbane,Hospitalised,25 to 29,Female,Passenger,16
+8829,2016,Brisbane,Hospitalised,50 to 59,Female,Driver,47
+8830,2016,Brisbane,Medically treated,40 to 49,Female,Driver,182
+8835,2015,Brisbane,Minor injury,40 to 49,Female,Driver,62
+8838,2016,Brisbane,Medically treated,25 to 29,Male,Driver,124
+8839,2016,Brisbane,Hospitalised,17 to 24,Female,Motorcyclist,8
+8840,2016,Brisbane,Hospitalised,50 to 59,Male,Driver,51
+8842,2016,Brisbane,Hospitalised,30 to 39,Male,Motorcyclist,63
+8844,2016,Brisbane,Medically treated,25 to 29,Male,Passenger,18
+8855,2016,Brisbane,Minor injury,25 to 29,Female,Driver,32
+8859,2015,Brisbane,Medically treated,30 to 39,Male,Driver,187
+8863,2015,Brisbane,Medically treated,30 to 39,Male,Passenger,35
+8865,2015,Brisbane,Medically treated,Unknown,Unknown,Passenger,3
+8867,2015,Brisbane,Hospitalised,60 to 74,Male,Driver,50
+8874,2015,Brisbane,Minor injury,17 to 24,Male,Driver,49
+8881,2016,Brisbane,Medically treated,50 to 59,Female,Driver,132
+8917,2015,Brisbane,Hospitalised,17 to 24,Female,Driver,90
+8934,2018,Brisbane,Medically treated,40 to 49,Female,Driver,168
+8941,2017,Brisbane,Hospitalised,0 to 16,Male,Bicyclist,15
+8943,2017,Brisbane,Hospitalised,30 to 39,Female,Driver,68
+8944,2017,Brisbane,Hospitalised,17 to 24,Male,Passenger,33
+8945,2018,Brisbane,Hospitalised,25 to 29,Female,Passenger,11
+8950,2018,Brisbane,Minor injury,40 to 49,Male,Motorcyclist,12
+8957,2017,Brisbane,Hospitalised,17 to 24,Male,Bicyclist,21
+8959,2017,Brisbane,Medically treated,50 to 59,Male,Driver,100
+8963,2017,Brisbane,Minor injury,60 to 74,Female,Driver,25
+8967,2017,Brisbane,Minor injury,40 to 49,Female,Driver,71
+8968,2017,Brisbane,Hospitalised,0 to 16,Male,Driver,2
+8971,2017,Brisbane,Medically treated,17 to 24,Male,Bicyclist,12
+8972,2016,Brisbane,Hospitalised,25 to 29,Male,Motorcyclist,34
+8976,2017,Brisbane,Minor injury,17 to 24,Male,Driver,64
+8977,2017,Brisbane,Medically treated,60 to 74,Male,Pedestrian,10
+8981,2017,Brisbane,Hospitalised,50 to 59,Male,Driver,47
+8982,2017,Brisbane,Minor injury,30 to 39,Female,Driver,77
+8989,2016,Brisbane,Medically treated,50 to 59,Male,Driver,102
+8990,2017,Brisbane,Medically treated,17 to 24,Male,Passenger,36
+8991,2017,Brisbane,Medically treated,30 to 39,Female,Driver,214
+8992,2017,Brisbane,Hospitalised,30 to 39,Female,Bicyclist,6
+9002,2015,Brisbane,Medically treated,50 to 59,Male,Bicyclist,12
+9003,2017,Brisbane,Medically treated,60 to 74,Female,Passenger,20
+9022,2018,Brisbane,Hospitalised,40 to 49,Male,Motorcyclist,52
+9031,2018,Brisbane,Hospitalised,25 to 29,Male,Passenger,7
+9295,2016,Brisbane,Medically treated,17 to 24,Male,Bicyclist,11
+9301,2015,Brisbane,Hospitalised,0 to 16,Male,Pedestrian,14
+9319,2015,Brisbane,Hospitalised,75 and over,Female,Driver,18
+9349,2016,Brisbane,Hospitalised,60 to 74,Male,Driver,48
+9354,2016,Brisbane,Medically treated,0 to 16,Male,Passenger,45
+9359,2016,Brisbane,Hospitalised,0 to 16,Male,Passenger,29
+9362,2017,Brisbane,Hospitalised,60 to 74,Female,Driver,42
+9368,2016,Brisbane,Minor injury,17 to 24,Male,Motorcyclist,7
+9371,2018,Brisbane,Minor injury,Unknown,Male,Driver,1
+9373,2018,Brisbane,Hospitalised,30 to 39,Male,Passenger,11
+9543,2016,Brisbane,Minor injury,30 to 39,Female,Driver,55
+9544,2016,Brisbane,Hospitalised,30 to 39,Male,Pedestrian,12
+9548,2016,Brisbane,Hospitalised,40 to 49,Female,Driver,74
+9553,2015,Brisbane,Hospitalised,50 to 59,Female,Motorcyclist,6
+9560,2015,Brisbane,Medically treated,50 to 59,Male,Passenger,13
+9589,2016,Brisbane,Minor injury,50 to 59,Male,Motorcyclist,6
+9592,2018,Brisbane,Hospitalised,60 to 74,Female,Passenger,16
+9594,2018,Brisbane,Hospitalised,60 to 74,Male,Motorcyclist,15
+9755,2015,Brisbane,Hospitalised,25 to 29,Female,Pedestrian,6
+9867,2016,Brisbane,Hospitalised,0 to 16,Female,Pedestrian,10
+9873,2016,Brisbane,Medically treated,25 to 29,Female,Motorcyclist,6
+9875,2015,Brisbane,Medically treated,30 to 39,Female,Bicyclist,10
+9879,2015,Brisbane,Medically treated,75 and over,Female,Passenger,12
+9883,2015,Brisbane,Medically treated,Unknown,Male,Passenger,1
+9896,2017,Brisbane,Fatality,50 to 59,Male,Bicyclist,2
+9900,2017,Brisbane,Hospitalised,50 to 59,Female,Motorcyclist,3
+9905,2018,Brisbane,Minor injury,30 to 39,Female,Other,1
+9908,2018,Brisbane,Medically treated,30 to 39,Male,Pedestrian,6
+9910,2018,Brisbane,Medically treated,60 to 74,Male,Pedestrian,6
+9911,2015,Brisbane,Hospitalised,60 to 74,Female,Pedestrian,7
+10016,2015,Brisbane,Hospitalised,25 to 29,Female,Motorcyclist,6
+10017,2015,Brisbane,Fatality,25 to 29,Female,Pedestrian,1
+10026,2015,Brisbane,Hospitalised,0 to 16,Female,Pedestrian,8
+10036,2017,Brisbane,Medically treated,17 to 24,Male,Pedestrian,6
+10038,2017,Brisbane,Fatality,17 to 24,Female,Pedestrian,2
+10120,2017,Brisbane,Medically treated,0 to 16,Female,Driver,1
+10121,2017,Brisbane,Minor injury,25 to 29,Female,Motorcyclist,3
+10122,2017,Brisbane,Medically treated,60 to 74,Male,Passenger,6
+10124,2016,Brisbane,Medically treated,0 to 16,Female,Driver,1
+10125,2016,Brisbane,Minor injury,60 to 74,Male,Bicyclist,1
+10128,2018,Brisbane,Hospitalised,40 to 49,Female,Motorcyclist,3
+10200,2016,Brisbane,Hospitalised,50 to 59,Female,Motorcyclist,2
+10214,2016,Brisbane,Hospitalised,40 to 49,Female,Bicyclist,7
+10225,2016,Brisbane,Minor injury,30 to 39,Male,Motorcyclist,12
+10289,2016,Brisbane,Hospitalised,25 to 29,Female,Pedestrian,6
+10296,2018,Brisbane,Minor injury,75 and over,Female,Driver,4
+10304,2016,Brisbane,Minor injury,40 to 49,Female,Motorcyclist,2
+10307,2017,Brisbane,Medically treated,30 to 39,Male,Pedestrian,5
+10308,2018,Brisbane,Medically treated,50 to 59,Male,Bicyclist,12
+10355,2015,Brisbane,Minor injury,30 to 39,Male,Pedestrian,1
+10361,2015,Brisbane,Hospitalised,50 to 59,Female,Pedestrian,6
+10363,2017,Brisbane,Minor injury,17 to 24,Male,Pedestrian,4
+10423,2015,Brisbane,Minor injury,0 to 16,Female,Bicyclist,1
+10431,2016,Brisbane,Minor injury,75 and over,Female,Passenger,4
+10486,2016,Brisbane,Minor injury,25 to 29,Male,Bicyclist,1
+10538,2016,Brisbane,Medically treated,Unknown,Female,Motorcyclist,1
+10539,2016,Brisbane,Hospitalised,75 and over,Female,Passenger,7
+10599,2015,Brisbane,Medically treated,25 to 29,Male,Pedestrian,8
+10606,2018,Brisbane,Hospitalised,75 and over,Female,Pedestrian,4
+10611,2016,Brisbane,Hospitalised,30 to 39,Female,Bicyclist,2
+10618,2018,Brisbane,Medically treated,30 to 39,Female,Bicyclist,7
+10660,2015,Brisbane,Hospitalised,0 to 16,Unknown,Bicyclist,1
+10705,2017,Brisbane,Fatality,75 and over,Male,Pedestrian,3
+10707,2017,Brisbane,Minor injury,25 to 29,Male,Pedestrian,1
+10712,2017,Brisbane,Fatality,60 to 74,Female,Driver,1
+10770,2015,Brisbane,Hospitalised,0 to 16,Female,Bicyclist,2
+10779,2017,Brisbane,Medically treated,Unknown,Male,Driver,1
+10780,2015,Brisbane,Minor injury,60 to 74,Male,Passenger,1
+10781,2018,Brisbane,Minor injury,0 to 16,Male,Bicyclist,1
+10814,2017,Brisbane,Fatality,50 to 59,Male,Motorcyclist,1
+10816,2016,Brisbane,Hospitalised,Unknown,Female,Passenger,1
+10871,2015,Brisbane,Fatality,17 to 24,Female,Pedestrian,1
+10873,2018,Brisbane,Medically treated,40 to 49,Female,Bicyclist,2
+10874,2017,Brisbane,Fatality,75 and over,Male,Driver,1
+10900,2018,Brisbane,Fatality,17 to 24,Male,Passenger,2
+10923,2018,Brisbane,Medically treated,75 and over,Male,Motorcyclist,1
+10924,2015,Brisbane,Hospitalised,50 to 59,Male,Passenger,3
+10968,2015,Brisbane,Hospitalised,0 to 16,Unknown,Pedestrian,1
+11033,2016,Brisbane,Fatality,60 to 74,Male,Motorcyclist,1
+11050,2016,Brisbane,Minor injury,50 to 59,Unknown,Pedestrian,1
+11163,2018,Brisbane,Fatality,25 to 29,Male,Driver,1
+11701,2015,Brisbane,Medically treated,60 to 74,Female,Passenger,32
+11703,2015,Brisbane,Medically treated,40 to 49,Male,Driver,175
+11705,2016,Brisbane,Medically treated,40 to 49,Female,Passenger,33
+11707,2015,Brisbane,Medically treated,30 to 39,Female,Driver,202
+11712,2016,Brisbane,Medically treated,17 to 24,Female,Passenger,73
+11719,2015,Brisbane,Medically treated,25 to 29,Male,Bicyclist,8
+11722,2016,Brisbane,Medically treated,25 to 29,Female,Driver,106
+11727,2015,Brisbane,Hospitalised,50 to 59,Female,Driver,58
+11736,2015,Brisbane,Medically treated,40 to 49,Female,Passenger,43
+11740,2015,Brisbane,Minor injury,60 to 74,Female,Driver,17
+11746,2015,Brisbane,Hospitalised,50 to 59,Male,Pedestrian,8
+11752,2016,Brisbane,Hospitalised,50 to 59,Male,Motorcyclist,45
+11755,2015,Brisbane,Medically treated,60 to 74,Male,Motorcyclist,11
+11767,2015,Brisbane,Medically treated,75 and over,Male,Passenger,5
+11769,2015,Brisbane,Hospitalised,30 to 39,Male,Motorcyclist,76
+11788,2015,Brisbane,Hospitalised,25 to 29,Male,Motorcyclist,31
+11823,2018,Brisbane,Hospitalised,50 to 59,Male,Motorcyclist,45
+11827,2017,Brisbane,Medically treated,17 to 24,Female,Driver,176
+11829,2018,Brisbane,Minor injury,25 to 29,Female,Driver,42
+11842,2018,Brisbane,Hospitalised,0 to 16,Female,Passenger,36
+11850,2017,Brisbane,Minor injury,50 to 59,Female,Driver,44
+11852,2018,Brisbane,Hospitalised,17 to 24,Male,Driver,103
+11853,2018,Brisbane,Minor injury,17 to 24,Female,Driver,78
+11855,2018,Brisbane,Medically treated,17 to 24,Female,Passenger,53
+11861,2016,Brisbane,Medically treated,25 to 29,Female,Passenger,37
+11863,2016,Brisbane,Hospitalised,75 and over,Male,Driver,16
+11871,2016,Brisbane,Hospitalised,25 to 29,Female,Motorcyclist,10
+11878,2018,Brisbane,Hospitalised,60 to 74,Female,Driver,67
+11879,2018,Brisbane,Minor injury,60 to 74,Male,Driver,37
+11886,2018,Brisbane,Hospitalised,0 to 16,Male,Passenger,35
+11887,2018,Brisbane,Hospitalised,40 to 49,Female,Passenger,16
+11891,2018,Brisbane,Minor injury,17 to 24,Male,Driver,67
+11894,2018,Brisbane,Medically treated,17 to 24,Male,Passenger,45
+11895,2017,Brisbane,Minor injury,40 to 49,Male,Bicyclist,11
+11900,2018,Brisbane,Medically treated,0 to 16,Female,Passenger,39
+11904,2018,Brisbane,Minor injury,30 to 39,Female,Passenger,20
+12135,2015,Brisbane,Medically treated,17 to 24,Female,Bicyclist,5
+12143,2016,Brisbane,Minor injury,17 to 24,Female,Driver,39
+12151,2016,Brisbane,Medically treated,25 to 29,Male,Motorcyclist,29
+12154,2015,Brisbane,Hospitalised,40 to 49,Male,Motorcyclist,59
+12178,2015,Brisbane,Hospitalised,0 to 16,Female,Passenger,26
+12184,2015,Brisbane,Hospitalised,60 to 74,Male,Motorcyclist,15
+12188,2018,Brisbane,Hospitalised,75 and over,Male,Driver,26
+12195,2018,Brisbane,Hospitalised,40 to 49,Male,Driver,77
+12196,2017,Brisbane,Minor injury,25 to 29,Male,Motorcyclist,11
+12202,2016,Brisbane,Minor injury,0 to 16,Female,Passenger,17
+12207,2017,Brisbane,Medically treated,30 to 39,Female,Passenger,53
+12218,2016,Brisbane,Minor injury,40 to 49,Female,Driver,52
+12221,2017,Brisbane,Hospitalised,50 to 59,Female,Bicyclist,12
+12223,2018,Brisbane,Medically treated,40 to 49,Female,Motorcyclist,4
+12405,2016,Brisbane,Medically treated,50 to 59,Male,Bicyclist,10
+12418,2016,Brisbane,Medically treated,17 to 24,Female,Pedestrian,8
+12425,2015,Brisbane,Fatality,75 and over,Male,Driver,2
+12450,2018,Brisbane,Medically treated,Unknown,Female,Driver,1
+12457,2017,Brisbane,Medically treated,60 to 74,Male,Motorcyclist,11
+12571,2015,Brisbane,Medically treated,50 to 59,Male,Motorcyclist,19
+12572,2015,Brisbane,Medically treated,50 to 59,Female,Pedestrian,6
+12575,2016,Brisbane,Minor injury,30 to 39,Male,Passenger,13
+12577,2015,Brisbane,Medically treated,0 to 16,Female,Passenger,48
+12591,2018,Brisbane,Hospitalised,75 and over,Male,Pedestrian,3
+12602,2016,Brisbane,Medically treated,60 to 74,Male,Pedestrian,6
+12719,2016,Brisbane,Minor injury,0 to 16,Male,Passenger,20
+12723,2015,Brisbane,Minor injury,40 to 49,Male,Bicyclist,7
+12740,2018,Brisbane,Hospitalised,30 to 39,Male,Bicyclist,15
+12743,2016,Brisbane,Medically treated,17 to 24,Female,Motorcyclist,6
+12744,2018,Brisbane,Medically treated,30 to 39,Female,Pedestrian,6
+12759,2018,Brisbane,Medically treated,50 to 59,Male,Pedestrian,2
+12763,2018,Brisbane,Minor injury,30 to 39,Male,Bicyclist,12
+12766,2018,Brisbane,Fatality,0 to 16,Male,Passenger,1
+12856,2016,Brisbane,Fatality,50 to 59,Male,Motorcyclist,1
+12858,2015,Brisbane,Hospitalised,0 to 16,Female,Driver,1
+12862,2015,Brisbane,Hospitalised,17 to 24,Female,Motorcyclist,4
+12872,2018,Brisbane,Medically treated,17 to 24,Female,Bicyclist,6
+12875,2016,Brisbane,Medically treated,60 to 74,Male,Motorcyclist,8
+12876,2018,Brisbane,Minor injury,40 to 49,Female,Bicyclist,1
+12950,2016,Brisbane,Hospitalised,17 to 24,Male,Bicyclist,8
+12955,2016,Brisbane,Minor injury,25 to 29,Female,Pedestrian,1
+12964,2015,Brisbane,Medically treated,40 to 49,Unknown,Driver,1
+12968,2018,Brisbane,Medically treated,40 to 49,Male,Pedestrian,5
+13059,2016,Brisbane,Minor injury,75 and over,Male,Passenger,3
+13074,2017,Brisbane,Medically treated,50 to 59,Male,Passenger,7
+13147,2017,Brisbane,Minor injury,60 to 74,Male,Motorcyclist,1
+13148,2018,Brisbane,Minor injury,25 to 29,Male,Bicyclist,3
+13149,2017,Brisbane,Medically treated,25 to 29,Female,Pedestrian,6
+13153,2018,Brisbane,Fatality,30 to 39,Male,Bicyclist,1
+13210,2016,Brisbane,Minor injury,Unknown,Male,Passenger,2
+13275,2015,Brisbane,Medically treated,0 to 16,Female,Pedestrian,7
+13276,2018,Brisbane,Hospitalised,40 to 49,Female,Other,1
+13279,2017,Brisbane,Minor injury,60 to 74,Male,Passenger,5
+13284,2018,Brisbane,Fatality,60 to 74,Male,Driver,1
+13333,2015,Brisbane,Medically treated,60 to 74,Female,Pedestrian,4
+13334,2016,Brisbane,Medically treated,75 and over,Female,Pedestrian,3
+13337,2015,Brisbane,Medically treated,75 and over,Male,Motorcyclist,1
+13343,2017,Brisbane,Medically treated,75 and over,Male,Pedestrian,1
+13346,2015,Brisbane,Minor injury,0 to 16,Male,Pedestrian,1
+13347,2017,Brisbane,Hospitalised,40 to 49,Female,Pedestrian,3
+13390,2016,Brisbane,Minor injury,75 and over,Male,Driver,5
+13435,2017,Brisbane,Minor injury,50 to 59,Female,Bicyclist,1
+13473,2015,Brisbane,Fatality,50 to 59,Female,Driver,1
+13478,2018,Brisbane,Medically treated,25 to 29,Unknown,Motorcyclist,1
+13483,2018,Brisbane,Minor injury,0 to 16,Male,Pedestrian,2
+13519,2018,Brisbane,Hospitalised,25 to 29,Female,Bicyclist,4
+13562,2016,Brisbane,Medically treated,50 to 59,Female,Motorcyclist,2
+13567,2018,Brisbane,Medically treated,30 to 39,Unknown,Driver,1
+13570,2018,Brisbane,Fatality,30 to 39,Female,Driver,1
+13640,2015,Brisbane,Minor injury,25 to 29,Female,Bicyclist,1
+13641,2015,Brisbane,Minor injury,75 and over,Female,Driver,3
+13705,2017,Brisbane,Fatality,17 to 24,Female,Driver,1
+13707,2017,Brisbane,Minor injury,30 to 39,Female,Bicyclist,3
+13711,2017,Brisbane,Fatality,75 and over,Female,Driver,1
+13736,2015,Brisbane,Medically treated,0 to 16,Male,Driver,2
+13737,2018,Brisbane,Hospitalised,60 to 74,Female,Motorcyclist,2
+13770,2015,Brisbane,Minor injury,Unknown,Female,Passenger,1
+13817,2018,Brisbane,Fatality,17 to 24,Male,Pedestrian,1
+13881,2015,Brisbane,Fatality,30 to 39,Male,Driver,2
+13882,2017,Brisbane,Minor injury,Unknown,Male,Bicyclist,1
+13924,2016,Brisbane,Fatality,60 to 74,Male,Bicyclist,1
+13925,2016,Brisbane,Fatality,40 to 49,Male,Driver,1
+13926,2017,Brisbane,Hospitalised,0 to 16,Female,Driver,2
+13929,2017,Brisbane,Medically treated,60 to 74,Female,Motorcyclist,1
+14016,2016,Brisbane,Minor injury,60 to 74,Male,Pedestrian,1
+14019,2018,Brisbane,Minor injury,60 to 74,Female,Bicyclist,1
+14021,2018,Brisbane,Minor injury,40 to 49,Female,Pedestrian,1
+14041,2016,Brisbane,Fatality,75 and over,Male,Pedestrian,1
+14549,2016,Brisbane,Hospitalised,60 to 74,Male,Bicyclist,11
+14555,2016,Brisbane,Medically treated,50 to 59,Female,Passenger,34
+14556,2016,Brisbane,Medically treated,17 to 24,Male,Driver,149
+14558,2015,Brisbane,Hospitalised,40 to 49,Male,Bicyclist,26
+14561,2016,Brisbane,Hospitalised,75 and over,Male,Motorcyclist,2
+14565,2015,Brisbane,Minor injury,0 to 16,Male,Bicyclist,4
+14570,2016,Brisbane,Medically treated,30 to 39,Female,Driver,258
+14578,2015,Brisbane,Medically treated,60 to 74,Male,Driver,58
+14579,2016,Brisbane,Hospitalised,30 to 39,Male,Passenger,8
+14584,2015,Brisbane,Hospitalised,60 to 74,Female,Driver,48
+14585,2016,Brisbane,Hospitalised,0 to 16,Female,Passenger,21
+14589,2016,Brisbane,Medically treated,50 to 59,Male,Motorcyclist,18
+14590,2015,Brisbane,Minor injury,50 to 59,Male,Motorcyclist,3
+14600,2016,Brisbane,Medically treated,50 to 59,Male,Pedestrian,6
+14602,2015,Brisbane,Hospitalised,40 to 49,Female,Driver,72
+14644,2015,Brisbane,Minor injury,75 and over,Male,Driver,4
+14654,2017,Brisbane,Medically treated,30 to 39,Male,Driver,221
+14658,2017,Brisbane,Hospitalised,60 to 74,Male,Driver,37
+14659,2018,Brisbane,Hospitalised,17 to 24,Male,Bicyclist,6
+14660,2018,Brisbane,Medically treated,25 to 29,Female,Driver,109
+14661,2017,Brisbane,Hospitalised,40 to 49,Male,Bicyclist,42
+14671,2017,Brisbane,Minor injury,25 to 29,Male,Driver,54
+14672,2017,Brisbane,Hospitalised,25 to 29,Male,Driver,47
+14675,2015,Brisbane,Medically treated,75 and over,Male,Pedestrian,5
+14684,2017,Brisbane,Medically treated,40 to 49,Female,Passenger,36
+14687,2017,Brisbane,Hospitalised,75 and over,Male,Pedestrian,9
+14690,2017,Brisbane,Hospitalised,25 to 29,Female,Passenger,13
+14692,2017,Brisbane,Hospitalised,30 to 39,Male,Passenger,10
+14703,2017,Brisbane,Hospitalised,25 to 29,Male,Bicyclist,11
+14707,2016,Brisbane,Medically treated,Unknown,Unknown,Pedestrian,1
+14710,2016,Brisbane,Hospitalised,40 to 49,Male,Bicyclist,13
+14713,2016,Brisbane,Minor injury,30 to 39,Male,Driver,66
+14718,2018,Brisbane,Medically treated,60 to 74,Female,Passenger,30
+14721,2018,Brisbane,Medically treated,17 to 24,Unknown,Bicyclist,1
+14728,2018,Brisbane,Medically treated,25 to 29,Female,Passenger,30
+14735,2018,Brisbane,Minor injury,60 to 74,Female,Driver,33
+14740,2018,Brisbane,Medically treated,30 to 39,Male,Passenger,18
+14741,2015,Brisbane,Minor injury,40 to 49,Female,Pedestrian,1
+14985,2016,Brisbane,Medically treated,25 to 29,Male,Bicyclist,16
+14989,2016,Brisbane,Medically treated,30 to 39,Female,Pedestrian,6
+14991,2015,Brisbane,Medically treated,40 to 49,Male,Bicyclist,21
+14998,2016,Brisbane,Hospitalised,30 to 39,Male,Bicyclist,25
+15006,2015,Brisbane,Hospitalised,25 to 29,Male,Driver,53
+15044,2017,Brisbane,Medically treated,30 to 39,Male,Motorcyclist,29
+15050,2017,Brisbane,Medically treated,40 to 49,Female,Motorcyclist,5
+15054,2018,Brisbane,Medically treated,60 to 74,Female,Pedestrian,8
+15076,2018,Brisbane,Hospitalised,60 to 74,Male,Passenger,6
+15231,2016,Brisbane,Minor injury,17 to 24,Male,Bicyclist,5
+15240,2015,Brisbane,Minor injury,0 to 16,Female,Pedestrian,1
+15241,2015,Brisbane,Minor injury,25 to 29,Male,Passenger,8
+15255,2015,Brisbane,Hospitalised,25 to 29,Male,Pedestrian,6
+15257,2017,Brisbane,Hospitalised,40 to 49,Male,Driver,66
+15267,2017,Brisbane,Hospitalised,50 to 59,Male,Passenger,6
+15269,2017,Brisbane,Medically treated,50 to 59,Female,Motorcyclist,2
+15271,2017,Brisbane,Medically treated,0 to 16,Female,Pedestrian,6
+15280,2018,Brisbane,Hospitalised,0 to 16,Male,Driver,3
+15285,2018,Brisbane,Minor injury,17 to 24,Male,Passenger,14
+15406,2015,Brisbane,Hospitalised,17 to 24,Female,Pedestrian,8
+15416,2016,Brisbane,Fatality,40 to 49,Male,Motorcyclist,10
+15428,2015,Brisbane,Medically treated,50 to 59,Female,Motorcyclist,5
+15433,2017,Brisbane,Hospitalised,50 to 59,Female,Passenger,12
+15435,2016,Brisbane,Medically treated,30 to 39,Female,Bicyclist,5
+15438,2017,Brisbane,Minor injury,Unknown,Unknown,Passenger,3
+15442,2017,Brisbane,Hospitalised,50 to 59,Male,Motorcyclist,32
+15446,2016,Brisbane,Medically treated,0 to 16,Male,Pedestrian,7
+15448,2017,Brisbane,Medically treated,25 to 29,Male,Bicyclist,10
+15449,2018,Brisbane,Hospitalised,30 to 39,Female,Pedestrian,8
+15565,2015,Brisbane,Hospitalised,60 to 74,Male,Passenger,5
+15577,2017,Brisbane,Minor injury,30 to 39,Female,Pedestrian,4
+15582,2017,Brisbane,Hospitalised,75 and over,Female,Passenger,6
+15583,2017,Brisbane,Hospitalised,17 to 24,Male,Pedestrian,10
+15588,2016,Brisbane,Hospitalised,60 to 74,Female,Pedestrian,12
+15589,2017,Brisbane,Hospitalised,75 and over,Male,Passenger,6
+15590,2016,Brisbane,Medically treated,Unknown,Male,Passenger,2
+15592,2018,Brisbane,Hospitalised,50 to 59,Male,Passenger,2
+15594,2018,Brisbane,Hospitalised,17 to 24,Female,Motorcyclist,6
+15596,2018,Brisbane,Minor injury,30 to 39,Male,Motorcyclist,6
+15678,2016,Brisbane,Fatality,25 to 29,Male,Passenger,1
+15684,2015,Brisbane,Minor injury,0 to 16,Female,Passenger,17
+15692,2018,Brisbane,Hospitalised,30 to 39,Female,Bicyclist,5
+15774,2015,Brisbane,Minor injury,17 to 24,Male,Bicyclist,4
+15776,2016,Brisbane,Minor injury,30 to 39,Female,Motorcyclist,2
+15778,2015,Brisbane,Minor injury,25 to 29,Male,Bicyclist,2
+15783,2015,Brisbane,Fatality,17 to 24,Male,Driver,3
+15855,2016,Brisbane,Medically treated,25 to 29,Male,Pedestrian,7
+15857,2015,Brisbane,Minor injury,60 to 74,Male,Pedestrian,2
+15860,2016,Brisbane,Fatality,40 to 49,Male,Bicyclist,1
+15929,2018,Brisbane,Minor injury,17 to 24,Female,Pedestrian,1
+16006,2017,Brisbane,Minor injury,17 to 24,Male,Motorcyclist,8
+16012,2018,Brisbane,Medically treated,0 to 16,Female,Bicyclist,5
+16055,2016,Brisbane,Minor injury,17 to 24,Female,Bicyclist,3
+16065,2015,Brisbane,Hospitalised,Unknown,Female,Motorcyclist,1
+16071,2017,Brisbane,Fatality,75 and over,Male,Motorcyclist,1
+16073,2018,Brisbane,Hospitalised,40 to 49,Male,Passenger,7
+16080,2016,Brisbane,Hospitalised,30 to 39,Female,Pedestrian,8
+16127,2015,Brisbane,Hospitalised,40 to 49,Female,Pedestrian,7
+16134,2018,Brisbane,Minor injury,50 to 59,Female,Passenger,8
+16138,2017,Brisbane,Hospitalised,40 to 49,Male,Passenger,8
+16140,2018,Brisbane,Hospitalised,75 and over,Male,Motorcyclist,1
+16143,2018,Brisbane,Minor injury,17 to 24,Male,Pedestrian,1
+16198,2018,Brisbane,Hospitalised,75 and over,Male,Bicyclist,3
+16228,2016,Brisbane,Medically treated,Unknown,Unknown,Bicyclist,1
+16240,2018,Brisbane,Medically treated,60 to 74,Female,Bicyclist,1
+16286,2018,Brisbane,Medically treated,17 to 24,Female,Motorcyclist,5
+16291,2017,Brisbane,Medically treated,0 to 16,Male,Pedestrian,6
+16292,2018,Brisbane,Minor injury,0 to 16,Male,Driver,1
+16335,2015,Brisbane,Fatality,50 to 59,Male,Motorcyclist,1
+16372,2017,Brisbane,Minor injury,50 to 59,Male,Motorcyclist,3
+16373,2017,Brisbane,Medically treated,40 to 49,Female,Pedestrian,5
+16440,2017,Brisbane,Minor injury,50 to 59,Female,Motorcyclist,1
+16469,2017,Brisbane,Fatality,30 to 39,Male,Driver,1
+16473,2016,Brisbane,Medically treated,30 to 39,Unknown,Driver,2
+16502,2018,Brisbane,Minor injury,17 to 24,Female,Motorcyclist,2
+16503,2016,Brisbane,Medically treated,17 to 24,Female,Other,1
+16504,2018,Brisbane,Fatality,50 to 59,Male,Motorcyclist,2
+16553,2018,Brisbane,Fatality,40 to 49,Male,Motorcyclist,2
+16574,2018,Brisbane,Medically treated,25 to 29,Unknown,Driver,2
+16578,2017,Brisbane,Fatality,60 to 74,Female,Passenger,1
+16650,2016,Brisbane,Medically treated,75 and over,Male,Bicyclist,1
+16675,2018,Brisbane,Fatality,40 to 49,Female,Motorcyclist,1
+16676,2016,Brisbane,Minor injury,25 to 29,Female,Motorcyclist,1
+16678,2018,Brisbane,Minor injury,25 to 29,Female,Pedestrian,1
+16681,2017,Brisbane,Minor injury,Unknown,Unknown,Pedestrian,1
+16701,2016,Brisbane,Fatality,50 to 59,Male,Pedestrian,2
+16704,2017,Brisbane,Medically treated,50 to 59,Unknown,Driver,1
+16705,2018,Brisbane,Minor injury,75 and over,Female,Passenger,1
+16706,2017,Brisbane,Fatality,30 to 39,Female,Driver,2
+16749,2016,Brisbane,Medically treated,25 to 29,Unknown,Driver,2
+16751,2016,Brisbane,Minor injury,0 to 16,Female,Pedestrian,1
+16799,2016,Brisbane,Minor injury,60 to 74,Unknown,Driver,1
+16838,2015,Brisbane,Medically treated,30 to 39,Female,Other,1
+17351,2016,Brisbane,Hospitalised,17 to 24,Female,Driver,92
+17354,2016,Brisbane,Hospitalised,17 to 24,Male,Driver,90
+17355,2015,Brisbane,Medically treated,17 to 24,Male,Motorcyclist,33
+17359,2016,Brisbane,Medically treated,60 to 74,Female,Passenger,24
+17363,2015,Brisbane,Medically treated,40 to 49,Female,Driver,191
+17364,2016,Brisbane,Hospitalised,25 to 29,Male,Bicyclist,15
+17374,2016,Brisbane,Medically treated,60 to 74,Male,Passenger,5
+17381,2016,Brisbane,Minor injury,17 to 24,Female,Passenger,22
+17382,2015,Brisbane,Minor injury,17 to 24,Male,Passenger,16
+17386,2015,Brisbane,Minor injury,25 to 29,Male,Motorcyclist,3
+17388,2015,Brisbane,Medically treated,50 to 59,Male,Driver,84
+17389,2016,Brisbane,Hospitalised,0 to 16,Male,Pedestrian,16
+17397,2016,Brisbane,Minor injury,50 to 59,Female,Driver,41
+17402,2015,Brisbane,Hospitalised,25 to 29,Female,Driver,40
+17430,2015,Brisbane,Hospitalised,50 to 59,Male,Driver,58
+17438,2015,Brisbane,Medically treated,17 to 24,Male,Driver,154
+17474,2018,Brisbane,Minor injury,30 to 39,Female,Driver,69
+17476,2018,Brisbane,Medically treated,50 to 59,Male,Driver,96
+17478,2018,Brisbane,Medically treated,0 to 16,Male,Passenger,33
+17489,2018,Brisbane,Medically treated,40 to 49,Male,Driver,166
+17490,2017,Brisbane,Hospitalised,50 to 59,Female,Driver,63
+17492,2017,Brisbane,Minor injury,30 to 39,Female,Passenger,14
+17497,2018,Brisbane,Minor injury,40 to 49,Male,Driver,60
+17498,2017,Brisbane,Minor injury,30 to 39,Male,Driver,94
+17501,2018,Brisbane,Medically treated,75 and over,Female,Driver,17
+17507,2017,Brisbane,Hospitalised,25 to 29,Male,Motorcyclist,53
+17517,2015,Brisbane,Hospitalised,60 to 74,Male,Bicyclist,5
+17522,2017,Brisbane,Medically treated,25 to 29,Female,Passenger,39
+17523,2016,Brisbane,Hospitalised,17 to 24,Male,Pedestrian,17
+17528,2017,Brisbane,Hospitalised,25 to 29,Female,Driver,43
+17530,2017,Brisbane,Hospitalised,50 to 59,Male,Bicyclist,29
+17531,2016,Brisbane,Medically treated,0 to 16,Female,Passenger,58
+17533,2016,Brisbane,Hospitalised,60 to 74,Female,Passenger,21
+17539,2017,Brisbane,Minor injury,50 to 59,Male,Driver,53
+17542,2018,Brisbane,Hospitalised,40 to 49,Male,Bicyclist,19
+17545,2017,Brisbane,Hospitalised,0 to 16,Male,Passenger,21
+17548,2018,Brisbane,Medically treated,50 to 59,Female,Passenger,30
+17560,2018,Brisbane,Medically treated,25 to 29,Male,Passenger,16
+17798,2015,Brisbane,Medically treated,30 to 39,Male,Bicyclist,34
+17804,2015,Brisbane,Minor injury,40 to 49,Female,Passenger,14
+17809,2016,Brisbane,Minor injury,50 to 59,Male,Pedestrian,2
+17824,2015,Brisbane,Hospitalised,40 to 49,Male,Passenger,7
+17825,2015,Brisbane,Minor injury,30 to 39,Female,Passenger,8
+17829,2015,Brisbane,Medically treated,17 to 24,Male,Pedestrian,9
+17842,2017,Brisbane,Fatality,30 to 39,Male,Motorcyclist,3
+17849,2017,Brisbane,Medically treated,75 and over,Female,Passenger,6
+17858,2017,Brisbane,Hospitalised,30 to 39,Female,Pedestrian,10
+17862,2015,Brisbane,Medically treated,25 to 29,Male,Passenger,23
+17864,2017,Brisbane,Minor injury,17 to 24,Male,Passenger,15
+17874,2018,Brisbane,Minor injury,60 to 74,Female,Passenger,6
+17878,2018,Brisbane,Hospitalised,75 and over,Female,Passenger,14
+17882,2018,Brisbane,Fatality,40 to 49,Male,Passenger,1
+18023,2015,Brisbane,Medically treated,17 to 24,Male,Passenger,38
+18027,2016,Brisbane,Hospitalised,0 to 16,Male,Bicyclist,14
+18032,2016,Brisbane,Medically treated,17 to 24,Unknown,Bicyclist,1
+18042,2015,Brisbane,Medically treated,75 and over,Female,Pedestrian,5
+18062,2017,Brisbane,Minor injury,60 to 74,Female,Passenger,12
+18069,2017,Brisbane,Minor injury,60 to 74,Male,Driver,32
+18079,2017,Brisbane,Hospitalised,30 to 39,Male,Pedestrian,14
+18082,2018,Brisbane,Minor injury,17 to 24,Male,Motorcyclist,7
+18083,2017,Brisbane,Minor injury,50 to 59,Female,Passenger,11
+18206,2016,Brisbane,Hospitalised,0 to 16,Female,Bicyclist,4
+18207,2015,Brisbane,Hospitalised,40 to 49,Female,Bicyclist,2
+18215,2015,Brisbane,Medically treated,60 to 74,Male,Passenger,6
+18216,2016,Brisbane,Hospitalised,17 to 24,Female,Passenger,30
+18217,2015,Brisbane,Medically treated,25 to 29,Female,Pedestrian,7
+18219,2015,Brisbane,Fatality,30 to 39,Female,Passenger,2
+18227,2017,Brisbane,Minor injury,25 to 29,Male,Bicyclist,5
+18228,2017,Brisbane,Medically treated,40 to 49,Female,Bicyclist,8
+18242,2018,Brisbane,Hospitalised,25 to 29,Male,Bicyclist,16
+18344,2016,Brisbane,Hospitalised,50 to 59,Male,Bicyclist,13
+18352,2016,Brisbane,Hospitalised,40 to 49,Male,Passenger,4
+18362,2018,Brisbane,Medically treated,0 to 16,Male,Pedestrian,10
+18368,2017,Brisbane,Medically treated,0 to 16,Male,Bicyclist,3
+18373,2015,Brisbane,Minor injury,Unknown,Male,Passenger,2
+18476,2018,Brisbane,Medically treated,60 to 74,Male,Motorcyclist,8
+18591,2018,Brisbane,Minor injury,17 to 24,Male,Bicyclist,3
+18592,2018,Brisbane,Hospitalised,17 to 24,Female,Pedestrian,9
+18647,2015,Brisbane,Hospitalised,0 to 16,Unknown,Passenger,3
+18652,2018,Brisbane,Medically treated,0 to 16,Female,Pedestrian,4
+18717,2016,Brisbane,Medically treated,40 to 49,Female,Motorcyclist,10
+18734,2017,Brisbane,Fatality,17 to 24,Female,Passenger,1
+18784,2015,Brisbane,Medically treated,40 to 49,Female,Bicyclist,4
+18791,2017,Brisbane,Fatality,17 to 24,Male,Driver,2
+18795,2017,Brisbane,Medically treated,50 to 59,Female,Bicyclist,2
+18798,2018,Brisbane,Medically treated,40 to 49,Unknown,Passenger,1
+18799,2017,Brisbane,Medically treated,75 and over,Male,Passenger,5
+18800,2018,Brisbane,Fatality,60 to 74,Male,Pedestrian,1
+18841,2016,Brisbane,Fatality,75 and over,Female,Pedestrian,1
+18844,2018,Brisbane,Hospitalised,0 to 16,Female,Pedestrian,7
+18845,2017,Brisbane,Minor injury,30 to 39,Female,Motorcyclist,2
+18847,2018,Brisbane,Hospitalised,50 to 59,Female,Bicyclist,1
+18856,2018,Brisbane,Medically treated,25 to 29,Female,Pedestrian,4
+18901,2015,Brisbane,Medically treated,25 to 29,Unknown,Driver,2
+18903,2016,Brisbane,Fatality,25 to 29,Male,Driver,2
+18914,2016,Brisbane,Minor injury,60 to 74,Male,Other,1
+18916,2015,Brisbane,Medically treated,60 to 74,Female,Motorcyclist,1
+18962,2017,Brisbane,Hospitalised,25 to 29,Female,Bicyclist,4
+19080,2016,Brisbane,Fatality,17 to 24,Male,Motorcyclist,2
+19084,2015,Brisbane,Medically treated,60 to 74,Male,Pedestrian,5
+19089,2016,Brisbane,Minor injury,75 and over,Female,Driver,3
+19091,2016,Brisbane,Hospitalised,50 to 59,Female,Bicyclist,3
+19092,2018,Brisbane,Medically treated,25 to 29,Female,Bicyclist,3
+19125,2017,Brisbane,Minor injury,17 to 24,Female,Bicyclist,3
+19127,2017,Brisbane,Medically treated,17 to 24,Unknown,Driver,1
+19155,2016,Brisbane,Medically treated,50 to 59,Unknown,Passenger,1
+19157,2016,Brisbane,Minor injury,17 to 24,Female,Pedestrian,1
+19158,2016,Brisbane,Hospitalised,0 to 16,Male,Driver,3
+19252,2015,Brisbane,Hospitalised,Unknown,Male,Passenger,1
+19278,2015,Brisbane,Hospitalised,60 to 74,Female,Bicyclist,1
+19333,2017,Brisbane,Fatality,17 to 24,Male,Motorcyclist,2
+19377,2015,Brisbane,Medically treated,50 to 59,Male,Other,1
+19408,2017,Brisbane,Medically treated,50 to 59,Female,Pedestrian,1
+19428,2017,Brisbane,Medically treated,17 to 24,Female,Motorcyclist,2
+19443,2016,Brisbane,Medically treated,75 and over,Male,Passenger,1
+19450,2016,Brisbane,Medically treated,Unknown,Male,Bicyclist,1
+19519,2016,Brisbane,Fatality,25 to 29,Female,Driver,1
+20071,2015,Brisbane,Medically treated,0 to 16,Male,Bicyclist,8
+20079,2016,Brisbane,Medically treated,40 to 49,Female,Bicyclist,6
+20082,2016,Brisbane,Medically treated,17 to 24,Male,Pedestrian,12
+20093,2016,Brisbane,Medically treated,30 to 39,Female,Motorcyclist,5
+20095,2016,Brisbane,Hospitalised,30 to 39,Male,Driver,89
+20112,2016,Brisbane,Fatality,60 to 74,Female,Pedestrian,1
+20114,2016,Brisbane,Medically treated,30 to 39,Male,Driver,197
+20117,2015,Brisbane,Minor injury,17 to 24,Female,Driver,42
+20119,2015,Brisbane,Medically treated,40 to 49,Male,Pedestrian,11
+20121,2015,Brisbane,Medically treated,17 to 24,Female,Passenger,61
+20142,2015,Brisbane,Minor injury,50 to 59,Male,Driver,32
+20153,2015,Brisbane,Fatality,30 to 39,Male,Motorcyclist,5
+20157,2015,Brisbane,Hospitalised,17 to 24,Male,Motorcyclist,51
+20170,2015,Brisbane,Medically treated,30 to 39,Female,Pedestrian,12
+20171,2015,Brisbane,Minor injury,25 to 29,Female,Driver,24
+20198,2017,Brisbane,Minor injury,25 to 29,Female,Driver,62
+20201,2017,Brisbane,Minor injury,17 to 24,Female,Passenger,26
+20204,2018,Brisbane,Minor injury,30 to 39,Male,Passenger,9
+20205,2018,Brisbane,Medically treated,25 to 29,Male,Motorcyclist,33
+20206,2018,Brisbane,Medically treated,60 to 74,Male,Passenger,10
+20209,2018,Brisbane,Hospitalised,50 to 59,Female,Driver,52
+20210,2018,Brisbane,Hospitalised,30 to 39,Male,Motorcyclist,58
+20211,2018,Brisbane,Hospitalised,60 to 74,Male,Driver,43
+20213,2018,Brisbane,Medically treated,25 to 29,Male,Driver,128
+20217,2017,Brisbane,Medically treated,50 to 59,Female,Passenger,26
+20223,2017,Brisbane,Hospitalised,17 to 24,Female,Driver,90
+20224,2017,Brisbane,Medically treated,17 to 24,Male,Motorcyclist,23
+20228,2017,Brisbane,Medically treated,25 to 29,Female,Driver,122
+20238,2018,Brisbane,Medically treated,17 to 24,Male,Motorcyclist,18
+20242,2016,Brisbane,Minor injury,40 to 49,Male,Pedestrian,3
+20244,2016,Brisbane,Medically treated,75 and over,Female,Driver,18
+20247,2017,Brisbane,Hospitalised,17 to 24,Female,Passenger,24
+20249,2017,Brisbane,Hospitalised,17 to 24,Male,Driver,92
+20252,2017,Brisbane,Hospitalised,0 to 16,Female,Pedestrian,9
+20265,2016,Brisbane,Medically treated,40 to 49,Male,Bicyclist,29
+20267,2016,Brisbane,Medically treated,60 to 74,Male,Bicyclist,11
+20268,2016,Brisbane,Minor injury,25 to 29,Male,Pedestrian,1
+20269,2018,Brisbane,Hospitalised,17 to 24,Female,Passenger,40
+20270,2018,Brisbane,Minor injury,40 to 49,Female,Driver,90
+20275,2015,Brisbane,Medically treated,40 to 49,Male,Passenger,11
+20284,2018,Brisbane,Medically treated,40 to 49,Male,Bicyclist,23
+20289,2018,Brisbane,Medically treated,40 to 49,Female,Passenger,30
+20292,2018,Brisbane,Hospitalised,60 to 74,Female,Pedestrian,9
+20525,2016,Brisbane,Minor injury,17 to 24,Male,Passenger,19
+20529,2015,Brisbane,Hospitalised,0 to 16,Male,Bicyclist,9
+20553,2015,Brisbane,Medically treated,0 to 16,Male,Passenger,42
+20572,2018,Brisbane,Minor injury,25 to 29,Male,Driver,44
+20574,2016,Brisbane,Minor injury,50 to 59,Female,Passenger,11
+20585,2017,Brisbane,Minor injury,75 and over,Male,Passenger,2
+20590,2016,Brisbane,Hospitalised,60 to 74,Male,Motorcyclist,22
+20596,2017,Brisbane,Minor injury,30 to 39,Male,Motorcyclist,16
+20599,2017,Brisbane,Minor injury,25 to 29,Male,Passenger,11
+20602,2017,Brisbane,Minor injury,30 to 39,Male,Passenger,20
+20614,2018,Brisbane,Minor injury,60 to 74,Male,Passenger,3
+20764,2016,Brisbane,Medically treated,40 to 49,Female,Pedestrian,5
+20766,2016,Brisbane,Hospitalised,17 to 24,Male,Passenger,13
+20769,2016,Brisbane,Minor injury,40 to 49,Male,Passenger,3
+20770,2016,Brisbane,Hospitalised,75 and over,Male,Passenger,4
+20775,2015,Brisbane,Fatality,30 to 39,Female,Driver,3
+20778,2015,Brisbane,Minor injury,60 to 74,Female,Passenger,9
+20789,2015,Brisbane,Hospitalised,30 to 39,Unknown,Driver,1
+20792,2015,Brisbane,Minor injury,40 to 49,Male,Passenger,4
+20796,2018,Brisbane,Hospitalised,50 to 59,Male,Pedestrian,11
+20797,2017,Brisbane,Medically treated,0 to 16,Female,Bicyclist,2
+20798,2018,Brisbane,Medically treated,Unknown,Male,Passenger,3
+20812,2017,Brisbane,Hospitalised,60 to 74,Male,Passenger,5
+20814,2018,Brisbane,Hospitalised,50 to 59,Male,Bicyclist,17
+20815,2018,Brisbane,Hospitalised,60 to 74,Male,Pedestrian,4
+20816,2018,Brisbane,Hospitalised,60 to 74,Female,Bicyclist,5
+20939,2016,Brisbane,Hospitalised,75 and over,Female,Driver,16
+20953,2015,Brisbane,Hospitalised,25 to 29,Female,Passenger,8
+21092,2015,Brisbane,Hospitalised,17 to 24,Female,Passenger,28
+21106,2017,Brisbane,Hospitalised,30 to 39,Unknown,Driver,1
+21107,2017,Brisbane,Fatality,17 to 24,Male,Pedestrian,1
+21109,2016,Brisbane,Medically treated,Unknown,Unknown,Passenger,2
+21113,2017,Brisbane,Fatality,25 to 29,Male,Motorcyclist,1
+21216,2015,Brisbane,Minor injury,50 to 59,Female,Passenger,4
+21235,2015,Brisbane,Hospitalised,17 to 24,Male,Pedestrian,16
+21251,2018,Brisbane,Medically treated,40 to 49,Male,Motorcyclist,27
+21342,2016,Brisbane,Minor injury,30 to 39,Male,Pedestrian,3
+21351,2018,Brisbane,Hospitalised,40 to 49,Female,Bicyclist,3
+21354,2017,Brisbane,Minor injury,17 to 24,Female,Pedestrian,3
+21412,2015,Brisbane,Medically treated,25 to 29,Female,Bicyclist,4
+21427,2015,Brisbane,Minor injury,30 to 39,Female,Motorcyclist,2
+21484,2015,Brisbane,Hospitalised,0 to 16,Male,Driver,1
+21488,2016,Brisbane,Medically treated,60 to 74,Female,Bicyclist,2
+21489,2016,Brisbane,Medically treated,75 and over,Male,Pedestrian,2
+21503,2017,Brisbane,Medically treated,50 to 59,Male,Pedestrian,3
+21582,2018,Brisbane,Minor injury,17 to 24,Unknown,Passenger,1
+21583,2016,Brisbane,Minor injury,Unknown,Unknown,Motorcyclist,1
+21622,2016,Brisbane,Hospitalised,40 to 49,Female,Pedestrian,6
+21628,2017,Brisbane,Hospitalised,40 to 49,Male,Pedestrian,3
+21638,2018,Brisbane,Hospitalised,17 to 24,Male,Other,1
+21670,2016,Brisbane,Minor injury,25 to 29,Male,Passenger,4
+21774,2015,Brisbane,Medically treated,25 to 29,Female,Motorcyclist,5
+21775,2016,Brisbane,Fatality,30 to 39,Male,Driver,2
+21827,2018,Brisbane,Minor injury,Unknown,Male,Passenger,2
+21874,2018,Brisbane,Minor injury,60 to 74,Male,Pedestrian,2
+21901,2015,Brisbane,Minor injury,50 to 59,Male,Pedestrian,2
+21905,2018,Brisbane,Hospitalised,30 to 39,Unknown,Motorcyclist,1
+21949,2018,Brisbane,Minor injury,60 to 74,Male,Bicyclist,3
+21981,2017,Brisbane,Minor injury,17 to 24,Male,Bicyclist,2
+22017,2018,Brisbane,Medically treated,40 to 49,Female,Pedestrian,1
+22095,2017,Brisbane,Minor injury,30 to 39,Female,Other,2
+22181,2017,Brisbane,Medically treated,17 to 24,Unknown,Passenger,1
+22222,2017,Brisbane,Minor injury,50 to 59,Female,Pedestrian,1
+22346,2016,Brisbane,Minor injury,30 to 39,Female,Pedestrian,1
+22350,2018,Brisbane,Minor injury,50 to 59,Female,Motorcyclist,1
+22370,2016,Brisbane,Medically treated,25 to 29,Unknown,Bicyclist,1

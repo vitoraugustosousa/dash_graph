@@ -20,15 +20,15 @@ server = app.server
 
 #Importing the DataFrames
 
-df_locations = pd.read_csv('locations_filtered1.csv')
+df_locations = pd.read_csv('locations_final.csv')
 
-df_vehicles_m = pd.read_csv('vehicles_filtered1.csv')
+df_vehicles_m = pd.read_csv('vehicles_final.csv')
 
-df_factors_m = pd.read_csv('factors_filtered1.csv')
+df_factors_m = pd.read_csv('factors_final.csv')
 
-df_demographics = pd.read_csv('demographics_filtered1.csv')
+df_demographics = pd.read_csv('demographics_final.csv')
 
-df_casualties = pd.read_csv('casualties_filtered1.csv')
+df_casualties = pd.read_csv('casualties_final.csv')
 
 
 #Create helper lists and columns
@@ -112,7 +112,7 @@ app.layout = html.Div(
         html.Div(
             [
                 html.H4('Overview'),
-                html.P('This dashboard presents information on location and characteristics of crashes ocurrend in Brisbane for all reported Road Traffic Crashes occurred from 2013 to 2018. The main purpose is to identify and analyse the main factors and trends related to these incidents.'),
+                html.P('This dashboard presents information on location and characteristics of crashes ocurrend in Brisbane for all reported Road Traffic Crashes occurred from 2015 to 2018. The main purpose is to identify and analyse the main factors and trends related to these incidents.'),
                 html.P('All the information used (including the datasets) were retrieved from Queensland Goverment Open Data Portal > Crash Data from Queensland roads.'),
                 html.Div([html.Span('Source: ', style = {'font-style' : 'italic', 'font-size' : '12px'}), html.A('https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads', href = 'https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads', target="_blank", className = 'links')]),
                 html.Div([
